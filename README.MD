@@ -25,40 +25,38 @@ The Google Maps JavaScript API is used to map locations in this app. To use it y
 
 Required Plugins
 ================
-The following plugins are used in this project. 
-
-**NOTE:** The plugins will be automatically added when a platform is added if you use the config.xml located within the 
+ **NOTE:** These plugins will automatically get added into your projects when a platform is added if you use the config.xml located within the 
 project repo. Simply create a PhoneGap project then replace the config.xml and www folder with this one. ` $ phonegap create myPocketGuide`
 
--cordova-plugin-console 1.0.0 "Console"
+- cordova-plugin-console 1.0.0 "Console"
         
         $ phonegap plugin add cordova-plugin-console
         
--cordova-plugin-device 1.0.0 "Device"
+- cordova-plugin-device 1.0.0 "Device"
         
         $ phonegap plugin add cordova-plugin-device
         
--cordova-plugin-dialogs 1.1.0 "Notification"
+- cordova-plugin-dialogs 1.1.0 "Notification"
         
         $ phonegap plugin add cordova-plugin-notification
         
--cordova-plugin-statusbar 1.0.0 "StatusBar"
+- cordova-plugin-statusbar 1.0.0 "StatusBar"
         
         $ phonegap plugin add cordova-plugin-statusbar
 
--cordova-plugin-whitelist 1.0.0 "Whitelist"
+- cordova-plugin-whitelist 1.0.0 "Whitelist"
         
         $ phonegap plugin add cordova-plugin-whitelist
 
--nl.x-services.plugins.socialsharing 4.3.18 "SocialSharing"
+- nl.x-services.plugins.socialsharing 4.3.18 "SocialSharing"
         
         $ phonegap plugin add nl.x-services.plugins.socialsharing
 
--nl.x-services.plugins.toast 2.0.5 "Toast"
+- nl.x-services.plugins.toast 2.0.5 "Toast"
         
         $ phonegap plugin add nl.x-services.plugins.toast
 
--com.ionic.keyboard 1.0.4 "Keyboard"
+- com.ionic.keyboard 1.0.4 "Keyboard"
     
         $ phonegap plugin add com.ionic.keyboard
 
