@@ -1,6 +1,8 @@
 # Pocket Guide PhoneGap App
 PhoneGap Day EU workshop - Amsterdam Pocket Tour Guide. Simple mobile application built showing popular tourist destinations
- info and ratings. Project using Google Maps, social sharing, toast notifications.
+ in Amsterdam with info, reviews and ratings. This app uses using Google Maps, social sharing, toast notifications features
+ and implements mobile best practices such as single page architecture, hardware accelerated transitions, click delay handling, 
+ and native notifications.
 
 Requirements
 ============
@@ -19,46 +21,46 @@ The Google Maps JavaScript API is used to map locations in this app. To use it y
    
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIraSnA_ljX-8zj5FNULQ3jwrzHSTCCdb0OqZTI"></script>
 
-**Developer Guides here** https://developers.google.com/maps/documentation/javascript/
+**Google Maps Developer Guides [here](https://developers.google.com/maps/documentation/javascript/)** 
 
 Required Plugins
 ================
 The following plugins are used in this project. 
 
-*** Note: The plugins will be automatically added when a platform is added if you use the config.xml located within the 
+**NOTE:** The plugins will be automatically added when a platform is added if you use the config.xml located within the 
 project repo. Simply create a PhoneGap project then replace the config.xml and www folder with this one. ` $ phonegap create myPocketGuide`
 
 -cordova-plugin-console 1.0.0 "Console"
         
-        phonegap plugin add cordova-plugin-console
+        $ phonegap plugin add cordova-plugin-console
         
 -cordova-plugin-device 1.0.0 "Device"
         
-        phonegap plugin add cordova-plugin-device
+        $ phonegap plugin add cordova-plugin-device
         
 -cordova-plugin-dialogs 1.1.0 "Notification"
         
-        phonegap plugin add cordova-plugin-notification
+        $ phonegap plugin add cordova-plugin-notification
         
 -cordova-plugin-statusbar 1.0.0 "StatusBar"
         
-        phonegap plugin add cordova-plugin-statusbar
+        $ phonegap plugin add cordova-plugin-statusbar
 
 -cordova-plugin-whitelist 1.0.0 "Whitelist"
         
-        phonegap plugin add cordova-plugin-whitelist
+        $ phonegap plugin add cordova-plugin-whitelist
 
 -nl.x-services.plugins.socialsharing 4.3.18 "SocialSharing"
         
-        phonegap plugin add nl.x-services.plugins.socialsharing
+        $ phonegap plugin add nl.x-services.plugins.socialsharing
 
 -nl.x-services.plugins.toast 2.0.5 "Toast"
         
-        phonegap plugin add nl.x-services.plugins.toast
+        $ phonegap plugin add nl.x-services.plugins.toast
 
 -com.ionic.keyboard 1.0.4 "Keyboard"
     
-        phonegap plugin add com.ionic.keyboard
+        $ phonegap plugin add com.ionic.keyboard
 
 
        
