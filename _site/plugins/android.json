@@ -1,0 +1,81 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" value=\"com.ionic.keyboard.IonicKeyboard\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"android-package\" value=\"nl.xservices.plugins.Toast\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        },
+        "nl.x-services.plugins.socialsharing": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        },
+        "nl.x-services.plugins.toast": {
+            "PACKAGE_NAME": "org.devgirl.amsterdam.guide"
+        }
+    },
+    "dependent_plugins": {}
+}

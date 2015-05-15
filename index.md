@@ -4,7 +4,7 @@ title: PhoneGap Workshop
 ---
 
 ## What You Will Build
-In this workshop you will learn how to create a mobile Conference Application using PhoneGap with HTML, JavaScript and CSS. Best
+In this workshop you will learn how to create a simple mobile Tour Guide application using PhoneGap with HTML, JavaScript and CSS. Best
 practices and performance techniques will also be taught as you complete each module.
 
 ![](images/home-view.png) ![](images/session-view.png)

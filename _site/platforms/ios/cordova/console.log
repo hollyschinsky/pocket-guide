@@ -1,0 +1,436 @@
+2015-05-13 11:52:56.060 AmsterdamGuide[28310:642505] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/48F74FE1-5BCE-4BEB-9AE1-D3EA311C4F2B/Library/Cookies/Cookies.binarycookies
+2015-05-13 11:52:56.455 AmsterdamGuide[28310:642505] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 11:52:56.456 AmsterdamGuide[28310:642505] Multi-tasking -> Device: YES, App: YES
+2015-05-13 11:52:56.470 AmsterdamGuide[28310:642505] Unlimited access to network resources
+2015-05-13 11:52:56.490 AmsterdamGuide[28310:642505] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 11:52:57.039 AmsterdamGuide[28310:642505] [CDVTimer][socialsharing] 96.172035ms
+2015-05-13 11:52:57.039 AmsterdamGuide[28310:642505] [CDVTimer][keyboard] 0.092030ms
+2015-05-13 11:52:57.092 AmsterdamGuide[28310:642505] [CDVTimer][statusbar] 52.174985ms
+2015-05-13 11:52:57.092 AmsterdamGuide[28310:642505] [CDVTimer][TotalPluginStartup] 148.949027ms
+2015-05-13 11:52:57.182 AmsterdamGuide[28310:642505] Resetting plugins due to page load.
+2015-05-13 11:52:57.772 AmsterdamGuide[28310:642505] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/006811AA-28C1-4EC4-B0AC-D9C766B5C698/AmsterdamGuide.app/www/index.html
+2015-05-13 11:52:59.533 AmsterdamGuide[28310:642505] details
+2015-05-13 11:53:02.476 AmsterdamGuide[28310:642505] THREAD WARNING: ['Notification'] took '75.982910' ms. Plugin should use a background thread.
+2015-05-13 11:53:17.719 AmsterdamGuide[28310:642505] details
+2015-05-13 11:54:40.877 AmsterdamGuide[28522:644199] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/E4123424-599D-431B-9F6A-955C3811BBDD/Library/Cookies/Cookies.binarycookies
+2015-05-13 11:54:40.981 AmsterdamGuide[28522:644199] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 11:54:40.982 AmsterdamGuide[28522:644199] Multi-tasking -> Device: YES, App: YES
+2015-05-13 11:54:40.984 AmsterdamGuide[28522:644199] Unlimited access to network resources
+2015-05-13 11:54:40.986 AmsterdamGuide[28522:644199] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 11:54:41.206 AmsterdamGuide[28522:644199] [CDVTimer][socialsharing] 55.626988ms
+2015-05-13 11:54:41.206 AmsterdamGuide[28522:644199] [CDVTimer][keyboard] 0.078022ms
+2015-05-13 11:54:41.222 AmsterdamGuide[28522:644199] [CDVTimer][statusbar] 15.347958ms
+2015-05-13 11:54:41.222 AmsterdamGuide[28522:644199] [CDVTimer][TotalPluginStartup] 71.632028ms
+2015-05-13 11:54:41.282 AmsterdamGuide[28522:644199] Resetting plugins due to page load.
+2015-05-13 11:54:41.782 AmsterdamGuide[28522:644199] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/37D6C6EA-4405-429C-8010-6B170A11948D/AmsterdamGuide.app/www/index.html
+2015-05-13 11:55:10.213 AmsterdamGuide[28522:644199] details
+2015-05-13 11:55:14.453 AmsterdamGuide[28522:644199] details
+2015-05-13 11:55:19.419 AmsterdamGuide[28522:644199] details
+2015-05-13 11:55:21.910 AmsterdamGuide[28522:644199] THREAD WARNING: ['Notification'] took '12.981934' ms. Plugin should use a background thread.
+2015-05-13 11:58:05.339 AmsterdamGuide[28719:645802] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/CDB43722-C9BD-4AF6-86DB-371B47A08FCE/Library/Cookies/Cookies.binarycookies
+2015-05-13 11:58:05.432 AmsterdamGuide[28719:645802] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 11:58:05.432 AmsterdamGuide[28719:645802] Multi-tasking -> Device: YES, App: YES
+2015-05-13 11:58:05.434 AmsterdamGuide[28719:645802] Unlimited access to network resources
+2015-05-13 11:58:05.437 AmsterdamGuide[28719:645802] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 11:58:05.637 AmsterdamGuide[28719:645802] [CDVTimer][socialsharing] 58.866024ms
+2015-05-13 11:58:05.637 AmsterdamGuide[28719:645802] [CDVTimer][keyboard] 0.086963ms
+2015-05-13 11:58:05.652 AmsterdamGuide[28719:645802] [CDVTimer][statusbar] 14.985025ms
+2015-05-13 11:58:05.652 AmsterdamGuide[28719:645802] [CDVTimer][TotalPluginStartup] 74.415982ms
+2015-05-13 11:58:05.700 AmsterdamGuide[28719:645802] Resetting plugins due to page load.
+2015-05-13 11:58:06.146 AmsterdamGuide[28719:645802] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/7C136DAC-DE8B-4164-A7EE-B0E7E9347CA4/AmsterdamGuide.app/www/index.html
+2015-05-13 11:58:11.618 AmsterdamGuide[28719:645802] details
+2015-05-13 11:58:12.819 AmsterdamGuide[28719:645802] THREAD WARNING: ['Notification'] took '17.867920' ms. Plugin should use a background thread.
+2015-05-13 11:58:23.044 AmsterdamGuide[28719:645802] details
+2015-05-13 11:58:26.234 AmsterdamGuide[28719:645802] details
+2015-05-13 14:13:11.481 AmsterdamGuide[28719:645802] details
+2015-05-13 14:13:30.089 AmsterdamGuide[28719:645802] THREAD WARNING: ['SocialSharing'] took '197.680908' ms. Plugin should use a background thread.
+2015-05-13 14:13:35.969 AmsterdamGuide[28719:645802] Success
+2015-05-13 14:31:41.071 AmsterdamGuide[28719:645802] details
+2015-05-13 14:31:48.520 AmsterdamGuide[28719:645802] details
+2015-05-13 14:31:55.954 AmsterdamGuide[28719:645802] THREAD WARNING: ['SocialSharing'] took '35.193848' ms. Plugin should use a background thread.
+2015-05-13 14:31:57.360 AmsterdamGuide[28719:645802] Success
+2015-05-14 13:56:42.114 AmsterdamGuide[38965:989485] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/171ED46D-60BC-48EC-BA85-B1D3209AAF24/Library/Cookies/Cookies.binarycookies
+2015-05-14 13:56:42.207 AmsterdamGuide[38965:989485] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 13:56:42.208 AmsterdamGuide[38965:989485] Multi-tasking -> Device: YES, App: YES
+2015-05-14 13:56:42.211 AmsterdamGuide[38965:989485] Unlimited access to network resources
+2015-05-14 13:56:42.213 AmsterdamGuide[38965:989485] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 13:56:42.466 AmsterdamGuide[38965:989485] [CDVTimer][socialsharing] 91.584980ms
+2015-05-14 13:56:42.466 AmsterdamGuide[38965:989485] [CDVTimer][keyboard] 0.077009ms
+2015-05-14 13:56:42.483 AmsterdamGuide[38965:989485] [CDVTimer][statusbar] 17.130017ms
+2015-05-14 13:56:42.483 AmsterdamGuide[38965:989485] [CDVTimer][TotalPluginStartup] 109.346986ms
+2015-05-14 13:56:42.507 AmsterdamGuide[38965:989485] Resetting plugins due to page load.
+2015-05-14 13:56:43.020 AmsterdamGuide[38965:989485] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/50547149-5B33-4BE1-B1F1-174DD5D9D67C/AmsterdamGuide.app/www/index.html
+2015-05-14 13:58:20.933 AmsterdamGuide[38965:989485] details
+2015-05-14 14:24:08.129 AmsterdamGuide[39560:1014252] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/CF5008DF-7BF6-4205-BFD7-78F258340D7D/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:24:08.235 AmsterdamGuide[39560:1014252] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:24:08.235 AmsterdamGuide[39560:1014252] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:24:08.237 AmsterdamGuide[39560:1014252] Unlimited access to network resources
+2015-05-14 14:24:08.240 AmsterdamGuide[39560:1014252] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:24:08.482 AmsterdamGuide[39560:1014252] [CDVTimer][socialsharing] 72.962999ms
+2015-05-14 14:24:08.483 AmsterdamGuide[39560:1014252] [CDVTimer][keyboard] 0.088036ms
+2015-05-14 14:24:08.499 AmsterdamGuide[39560:1014252] [CDVTimer][statusbar] 16.460955ms
+2015-05-14 14:24:08.499 AmsterdamGuide[39560:1014252] [CDVTimer][TotalPluginStartup] 90.160966ms
+2015-05-14 14:24:08.557 AmsterdamGuide[39560:1014252] Resetting plugins due to page load.
+2015-05-14 14:24:09.070 AmsterdamGuide[39560:1014252] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/8C9677A6-CE4D-4A95-85C6-4028C2C82580/AmsterdamGuide.app/www/index.html
+2015-05-14 14:24:17.052 AmsterdamGuide[39560:1014252] details
+2015-05-14 14:26:23.974 AmsterdamGuide[39560:1016576] Terminating since there is no system app.
+2015-05-14 14:28:21.780 AmsterdamGuide[39799:1018495] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/E63C858F-FC7A-44F7-9795-4A386073AE8F/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:28:21.911 AmsterdamGuide[39799:1018495] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:28:21.912 AmsterdamGuide[39799:1018495] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:28:21.914 AmsterdamGuide[39799:1018495] Unlimited access to network resources
+2015-05-14 14:28:21.917 AmsterdamGuide[39799:1018495] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:28:22.155 AmsterdamGuide[39799:1018495] [CDVTimer][socialsharing] 71.887016ms
+2015-05-14 14:28:22.156 AmsterdamGuide[39799:1018495] [CDVTimer][keyboard] 0.077009ms
+2015-05-14 14:28:22.171 AmsterdamGuide[39799:1018495] [CDVTimer][statusbar] 15.406013ms
+2015-05-14 14:28:22.171 AmsterdamGuide[39799:1018495] [CDVTimer][TotalPluginStartup] 87.930024ms
+2015-05-14 14:28:22.239 AmsterdamGuide[39799:1018495] Resetting plugins due to page load.
+2015-05-14 14:28:22.735 AmsterdamGuide[39799:1018495] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/B63A749A-44D5-44B9-BCB2-66E3F3B38AAF/AmsterdamGuide.app/www/index.html
+2015-05-14 14:28:29.388 AmsterdamGuide[39799:1018495] details
+2015-05-14 14:28:31.877 AmsterdamGuide[39799:1018495] THREAD WARNING: ['SocialSharing'] took '162.936035' ms. Plugin should use a background thread.
+2015-05-14 14:28:34.180 AmsterdamGuide[39799:1018495] Success
+2015-05-14 14:29:01.919 AmsterdamGuide[39943:1019330] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/7BD2102D-2076-49BE-85AE-D8F8748E601E/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:29:02.026 AmsterdamGuide[39943:1019330] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:29:02.026 AmsterdamGuide[39943:1019330] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:29:02.028 AmsterdamGuide[39943:1019330] Unlimited access to network resources
+2015-05-14 14:29:02.031 AmsterdamGuide[39943:1019330] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:29:02.241 AmsterdamGuide[39943:1019330] [CDVTimer][socialsharing] 55.720031ms
+2015-05-14 14:29:02.241 AmsterdamGuide[39943:1019330] [CDVTimer][keyboard] 0.081956ms
+2015-05-14 14:29:02.253 AmsterdamGuide[39943:1019330] [CDVTimer][statusbar] 11.430025ms
+2015-05-14 14:29:02.253 AmsterdamGuide[39943:1019330] [CDVTimer][TotalPluginStartup] 67.756057ms
+2015-05-14 14:29:02.321 AmsterdamGuide[39943:1019330] Resetting plugins due to page load.
+2015-05-14 14:29:02.722 AmsterdamGuide[39943:1019330] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/05F4864F-962C-4FFD-B8D3-FCBEE984CEF1/AmsterdamGuide.app/www/index.html
+2015-05-14 14:34:14.088 AmsterdamGuide[40166:1025751] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/B2BE3493-40FF-4EA8-A81F-75CF8452FB25/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:34:14.219 AmsterdamGuide[40166:1025751] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:34:14.220 AmsterdamGuide[40166:1025751] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:34:14.222 AmsterdamGuide[40166:1025751] Unlimited access to network resources
+2015-05-14 14:34:14.225 AmsterdamGuide[40166:1025751] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:34:14.451 AmsterdamGuide[40166:1025751] [CDVTimer][socialsharing] 71.488023ms
+2015-05-14 14:34:14.452 AmsterdamGuide[40166:1025751] [CDVTimer][keyboard] 0.083029ms
+2015-05-14 14:34:14.469 AmsterdamGuide[40166:1025751] [CDVTimer][statusbar] 17.122984ms
+2015-05-14 14:34:14.469 AmsterdamGuide[40166:1025751] [CDVTimer][TotalPluginStartup] 89.321017ms
+2015-05-14 14:34:14.530 AmsterdamGuide[40166:1025751] Resetting plugins due to page load.
+2015-05-14 14:34:15.022 AmsterdamGuide[40166:1025751] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/6921C2C5-24BB-42D8-879F-FE3E07FB4D2E/AmsterdamGuide.app/www/index.html
+2015-05-14 14:35:31.064 AmsterdamGuide[40166:1025751] details
+2015-05-14 14:37:07.795 AmsterdamGuide[40324:1027525] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/2101DB9A-F00B-4A6E-B73B-2F0404506C5E/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:37:07.911 AmsterdamGuide[40324:1027525] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:37:07.912 AmsterdamGuide[40324:1027525] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:37:07.914 AmsterdamGuide[40324:1027525] Unlimited access to network resources
+2015-05-14 14:37:07.920 AmsterdamGuide[40324:1027525] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:37:08.139 AmsterdamGuide[40324:1027525] [CDVTimer][socialsharing] 48.359990ms
+2015-05-14 14:37:08.139 AmsterdamGuide[40324:1027525] [CDVTimer][keyboard] 0.063956ms
+2015-05-14 14:37:08.150 AmsterdamGuide[40324:1027525] [CDVTimer][statusbar] 10.828972ms
+2015-05-14 14:37:08.150 AmsterdamGuide[40324:1027525] [CDVTimer][TotalPluginStartup] 59.620023ms
+2015-05-14 14:37:08.207 AmsterdamGuide[40324:1027525] Resetting plugins due to page load.
+2015-05-14 14:37:08.599 AmsterdamGuide[40324:1027525] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/0798101E-8585-4CEF-96AD-20E5401B13FA/AmsterdamGuide.app/www/index.html
+2015-05-14 14:37:25.180 AmsterdamGuide[40324:1027525] details
+2015-05-14 14:37:59.346 AmsterdamGuide[40324:1027525] THREAD WARNING: ['SocialSharing'] took '90.762695' ms. Plugin should use a background thread.
+2015-05-14 14:38:01.165 AmsterdamGuide[40324:1027525] Success
+2015-05-14 14:38:04.279 AmsterdamGuide[40324:1027525] THREAD WARNING: ['SocialSharing'] took '36.760010' ms. Plugin should use a background thread.
+2015-05-14 14:38:05.906 AmsterdamGuide[40324:1027525] Success
+2015-05-14 14:38:35.996 AmsterdamGuide[40324:1027525] THREAD WARNING: ['SocialSharing'] took '37.157959' ms. Plugin should use a background thread.
+2015-05-14 14:38:37.761 AmsterdamGuide[40324:1027525] Success
+2015-05-14 14:40:17.479 AmsterdamGuide[40324:1027525] THREAD WARNING: ['SocialSharing'] took '36.082031' ms. Plugin should use a background thread.
+2015-05-14 14:40:19.056 AmsterdamGuide[40324:1027525] Success
+2015-05-14 14:41:11.657 AmsterdamGuide[40529:1031528] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/1B40FF77-31A6-45BF-B022-71C483FAE043/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:41:11.788 AmsterdamGuide[40529:1031528] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:41:11.789 AmsterdamGuide[40529:1031528] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:41:11.791 AmsterdamGuide[40529:1031528] Unlimited access to network resources
+2015-05-14 14:41:11.793 AmsterdamGuide[40529:1031528] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:41:12.082 AmsterdamGuide[40529:1031528] [CDVTimer][socialsharing] 82.819998ms
+2015-05-14 14:41:12.083 AmsterdamGuide[40529:1031528] [CDVTimer][keyboard] 0.110984ms
+2015-05-14 14:41:12.108 AmsterdamGuide[40529:1031528] [CDVTimer][statusbar] 25.387049ms
+2015-05-14 14:41:12.109 AmsterdamGuide[40529:1031528] [CDVTimer][TotalPluginStartup] 109.162986ms
+2015-05-14 14:41:12.167 AmsterdamGuide[40529:1031528] Resetting plugins due to page load.
+2015-05-14 14:41:12.674 AmsterdamGuide[40529:1031528] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/9BC9DFFA-1CAC-4445-B592-D3456F7D6D88/AmsterdamGuide.app/www/index.html
+2015-05-14 14:41:16.363 AmsterdamGuide[40529:1031528] details
+2015-05-14 14:41:32.253 AmsterdamGuide[40529:1031528] THREAD WARNING: ['SocialSharing'] took '99.713867' ms. Plugin should use a background thread.
+2015-05-14 14:41:34.102 AmsterdamGuide[40529:1031528] Success
+2015-05-14 14:44:21.229 AmsterdamGuide[40740:1034073] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/E72A046B-991B-4834-8452-5F8D5040B4FE/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:44:21.372 AmsterdamGuide[40740:1034073] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:44:21.373 AmsterdamGuide[40740:1034073] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:44:21.375 AmsterdamGuide[40740:1034073] Unlimited access to network resources
+2015-05-14 14:44:21.377 AmsterdamGuide[40740:1034073] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:44:21.662 AmsterdamGuide[40740:1034073] [CDVTimer][socialsharing] 79.606056ms
+2015-05-14 14:44:21.663 AmsterdamGuide[40740:1034073] [CDVTimer][keyboard] 0.078976ms
+2015-05-14 14:44:21.679 AmsterdamGuide[40740:1034073] [CDVTimer][statusbar] 15.899003ms
+2015-05-14 14:44:21.679 AmsterdamGuide[40740:1034073] [CDVTimer][TotalPluginStartup] 96.159995ms
+2015-05-14 14:44:21.740 AmsterdamGuide[40740:1034073] Resetting plugins due to page load.
+2015-05-14 14:44:22.205 AmsterdamGuide[40740:1034073] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/A65AA333-4789-4FE5-8930-D3ABA581CA14/AmsterdamGuide.app/www/index.html
+2015-05-14 14:44:44.807 AmsterdamGuide[40740:1034073] details
+2015-05-14 14:44:47.594 AmsterdamGuide[40740:1034073] THREAD WARNING: ['Notification'] took '18.858398' ms. Plugin should use a background thread.
+2015-05-14 14:45:09.774 AmsterdamGuide[40740:1034642] Terminating since there is no system app.
+2015-05-14 14:45:21.201 AmsterdamGuide[40931:1035357] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/668D2676-EFD5-4423-BD5E-2BC93F9C93FF/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:45:21.297 AmsterdamGuide[40931:1035357] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:45:21.297 AmsterdamGuide[40931:1035357] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:45:21.299 AmsterdamGuide[40931:1035357] Unlimited access to network resources
+2015-05-14 14:45:21.302 AmsterdamGuide[40931:1035357] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:45:21.544 AmsterdamGuide[40931:1035357] [CDVTimer][socialsharing] 85.611999ms
+2015-05-14 14:45:21.544 AmsterdamGuide[40931:1035357] [CDVTimer][keyboard] 0.079036ms
+2015-05-14 14:45:21.561 AmsterdamGuide[40931:1035357] [CDVTimer][statusbar] 16.566038ms
+2015-05-14 14:45:21.562 AmsterdamGuide[40931:1035357] [CDVTimer][TotalPluginStartup] 103.076994ms
+2015-05-14 14:45:21.637 AmsterdamGuide[40931:1035357] Resetting plugins due to page load.
+2015-05-14 14:45:22.117 AmsterdamGuide[40931:1035357] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/2E5E5E83-BD4C-4331-B43B-E163EBF3E1F7/AmsterdamGuide.app/www/index.html
+2015-05-14 14:45:36.216 AmsterdamGuide[40931:1035357] details
+2015-05-14 14:46:02.950 AmsterdamGuide[40931:1035910] Terminating since there is no system app.
+2015-05-14 14:46:13.754 AmsterdamGuide[41121:1036609] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/288C54A6-D51D-438E-A436-05D29964E645/Library/Cookies/Cookies.binarycookies
+2015-05-14 14:46:13.905 AmsterdamGuide[41121:1036609] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 14:46:13.905 AmsterdamGuide[41121:1036609] Multi-tasking -> Device: YES, App: YES
+2015-05-14 14:46:13.908 AmsterdamGuide[41121:1036609] Unlimited access to network resources
+2015-05-14 14:46:13.911 AmsterdamGuide[41121:1036609] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 14:46:14.243 AmsterdamGuide[41121:1036609] [CDVTimer][socialsharing] 94.134986ms
+2015-05-14 14:46:14.243 AmsterdamGuide[41121:1036609] [CDVTimer][keyboard] 0.088990ms
+2015-05-14 14:46:14.263 AmsterdamGuide[41121:1036609] [CDVTimer][statusbar] 19.421995ms
+2015-05-14 14:46:14.263 AmsterdamGuide[41121:1036609] [CDVTimer][TotalPluginStartup] 114.317000ms
+2015-05-14 14:46:14.334 AmsterdamGuide[41121:1036609] Resetting plugins due to page load.
+2015-05-14 14:46:14.851 AmsterdamGuide[41121:1036609] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/A6746D61-8E58-43CB-97BA-36438FB51DDA/AmsterdamGuide.app/www/index.html
+2015-05-14 14:46:15.665 AmsterdamGuide[41121:1036609] details
+2015-05-14 14:46:20.894 AmsterdamGuide[41121:1036609] details
+2015-05-14 14:46:45.842 AmsterdamGuide[41121:1036609] THREAD WARNING: ['SocialSharing'] took '97.424072' ms. Plugin should use a background thread.
+2015-05-14 14:46:47.600 AmsterdamGuide[41121:1036609] Success
+2015-05-14 15:07:01.052 AmsterdamGuide[41121:1036609] details
+2015-05-14 15:22:53.922 AmsterdamGuide[41121:1063823] Terminating since there is no system app.
+2015-05-14 15:23:14.055 AmsterdamGuide[41908:1064694] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/6996853B-4157-4D5E-B865-FC2C9A609F75/Library/Cookies/Cookies.binarycookies
+2015-05-14 15:23:14.157 AmsterdamGuide[41908:1064694] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 15:23:14.158 AmsterdamGuide[41908:1064694] Multi-tasking -> Device: YES, App: YES
+2015-05-14 15:23:14.159 AmsterdamGuide[41908:1064694] Unlimited access to network resources
+2015-05-14 15:23:14.161 AmsterdamGuide[41908:1064694] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 15:23:14.403 AmsterdamGuide[41908:1064694] [CDVTimer][socialsharing] 55.981994ms
+2015-05-14 15:23:14.403 AmsterdamGuide[41908:1064694] [CDVTimer][keyboard] 0.078022ms
+2015-05-14 15:23:14.421 AmsterdamGuide[41908:1064694] [CDVTimer][statusbar] 17.711043ms
+2015-05-14 15:23:14.421 AmsterdamGuide[41908:1064694] [CDVTimer][TotalPluginStartup] 74.305952ms
+2015-05-14 15:23:14.480 AmsterdamGuide[41908:1064694] Resetting plugins due to page load.
+2015-05-14 15:23:14.805 AmsterdamGuide[41908:1064694] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/E0F7BFF1-6AA8-415F-BCE1-37913E03C3F8/AmsterdamGuide.app/www/index.html
+2015-05-14 22:00:49.364 AmsterdamGuide[3526:69339] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/4E464C24-B2A1-4DB1-9C27-80CAECBD785B/Library/Cookies/Cookies.binarycookies
+2015-05-14 22:00:49.662 AmsterdamGuide[3526:69339] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 22:00:49.662 AmsterdamGuide[3526:69339] Multi-tasking -> Device: YES, App: YES
+2015-05-14 22:00:49.680 AmsterdamGuide[3526:69339] Unlimited access to network resources
+2015-05-14 22:00:49.691 AmsterdamGuide[3526:69339] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 22:00:50.195 AmsterdamGuide[3526:69339] [CDVTimer][socialsharing] 74.087024ms
+2015-05-14 22:00:50.195 AmsterdamGuide[3526:69339] [CDVTimer][keyboard] 0.069022ms
+2015-05-14 22:00:50.285 AmsterdamGuide[3526:69339] [CDVTimer][statusbar] 89.353979ms
+2015-05-14 22:00:50.285 AmsterdamGuide[3526:69339] [CDVTimer][TotalPluginStartup] 163.951993ms
+2015-05-14 22:00:50.359 AmsterdamGuide[3526:69339] Resetting plugins due to page load.
+2015-05-14 22:00:50.749 AmsterdamGuide[3526:69339] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/AE36EAB0-9710-464F-8D01-82AA1421CF82/AmsterdamGuide.app/www/index.html
+2015-05-14 22:01:35.406 AmsterdamGuide[3677:70083] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/C96EA583-9FFE-4786-AC68-5D1438F98AB3/Library/Cookies/Cookies.binarycookies
+2015-05-14 22:01:35.505 AmsterdamGuide[3677:70083] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 22:01:35.506 AmsterdamGuide[3677:70083] Multi-tasking -> Device: YES, App: YES
+2015-05-14 22:01:35.508 AmsterdamGuide[3677:70083] Unlimited access to network resources
+2015-05-14 22:01:35.510 AmsterdamGuide[3677:70083] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 22:01:35.712 AmsterdamGuide[3677:70083] [CDVTimer][socialsharing] 49.626052ms
+2015-05-14 22:01:35.712 AmsterdamGuide[3677:70083] [CDVTimer][keyboard] 0.081003ms
+2015-05-14 22:01:35.727 AmsterdamGuide[3677:70083] [CDVTimer][statusbar] 14.679968ms
+2015-05-14 22:01:35.727 AmsterdamGuide[3677:70083] [CDVTimer][TotalPluginStartup] 64.910054ms
+2015-05-14 22:01:35.778 AmsterdamGuide[3677:70083] Resetting plugins due to page load.
+2015-05-14 22:01:36.049 AmsterdamGuide[3677:70083] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/D0927143-613A-4889-BBAB-8F4AFC57DF7E/AmsterdamGuide.app/www/index.html
+2015-05-14 22:06:54.572 AmsterdamGuide[3677:73974] Terminating since there is no system app.
+2015-05-14 22:09:03.799 AmsterdamGuide[4218:75383] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/DF6B8169-201F-44F8-8040-647B01BB6015/Library/Cookies/Cookies.binarycookies
+2015-05-14 22:09:03.917 AmsterdamGuide[4218:75383] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 22:09:03.917 AmsterdamGuide[4218:75383] Multi-tasking -> Device: YES, App: YES
+2015-05-14 22:09:03.919 AmsterdamGuide[4218:75383] Unlimited access to network resources
+2015-05-14 22:09:03.922 AmsterdamGuide[4218:75383] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 22:09:04.129 AmsterdamGuide[4218:75383] [CDVTimer][socialsharing] 57.666004ms
+2015-05-14 22:09:04.129 AmsterdamGuide[4218:75383] [CDVTimer][keyboard] 0.070989ms
+2015-05-14 22:09:04.142 AmsterdamGuide[4218:75383] [CDVTimer][statusbar] 13.180017ms
+2015-05-14 22:09:04.142 AmsterdamGuide[4218:75383] [CDVTimer][TotalPluginStartup] 71.460009ms
+2015-05-14 22:09:04.192 AmsterdamGuide[4218:75383] Resetting plugins due to page load.
+2015-05-14 22:09:04.684 AmsterdamGuide[4218:75383] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/593696DD-CEAC-4599-84E3-87093A492433/AmsterdamGuide.app/www/index.html
+2015-05-14 22:09:37.417 AmsterdamGuide[4218:75383] details
+2015-05-14 22:12:40.507 AmsterdamGuide[4428:77955] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/AD22CE69-9EA6-41A5-B65A-1AC4B99DD922/Library/Cookies/Cookies.binarycookies
+2015-05-14 22:12:40.645 AmsterdamGuide[4428:77955] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 22:12:40.646 AmsterdamGuide[4428:77955] Multi-tasking -> Device: YES, App: YES
+2015-05-14 22:12:40.647 AmsterdamGuide[4428:77955] Unlimited access to network resources
+2015-05-14 22:12:40.651 AmsterdamGuide[4428:77955] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 22:12:40.863 AmsterdamGuide[4428:77955] [CDVTimer][socialsharing] 57.132006ms
+2015-05-14 22:12:40.863 AmsterdamGuide[4428:77955] [CDVTimer][keyboard] 0.055969ms
+2015-05-14 22:12:40.876 AmsterdamGuide[4428:77955] [CDVTimer][statusbar] 12.205958ms
+2015-05-14 22:12:40.876 AmsterdamGuide[4428:77955] [CDVTimer][TotalPluginStartup] 69.851995ms
+2015-05-14 22:12:40.931 AmsterdamGuide[4428:77955] Resetting plugins due to page load.
+2015-05-14 22:12:41.447 AmsterdamGuide[4428:77955] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/EC809EF0-AA0C-450F-BBA5-93CA7F9CED7F/AmsterdamGuide.app/www/index.html
+2015-05-14 22:12:46.108 AmsterdamGuide[4428:77955] details
+2015-05-14 22:34:20.029 AmsterdamGuide[4747:90081] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/1C8DD46C-EF8F-4982-ABD3-7046AFE70697/Library/Cookies/Cookies.binarycookies
+2015-05-14 22:34:20.149 AmsterdamGuide[4747:90081] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 22:34:20.149 AmsterdamGuide[4747:90081] Multi-tasking -> Device: YES, App: YES
+2015-05-14 22:34:20.151 AmsterdamGuide[4747:90081] Unlimited access to network resources
+2015-05-14 22:34:20.153 AmsterdamGuide[4747:90081] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 22:34:20.385 AmsterdamGuide[4747:90081] [CDVTimer][socialsharing] 54.075003ms
+2015-05-14 22:34:20.386 AmsterdamGuide[4747:90081] [CDVTimer][keyboard] 0.098050ms
+2015-05-14 22:34:20.402 AmsterdamGuide[4747:90081] [CDVTimer][statusbar] 15.681982ms
+2015-05-14 22:34:20.402 AmsterdamGuide[4747:90081] [CDVTimer][TotalPluginStartup] 70.517004ms
+2015-05-14 22:34:20.473 AmsterdamGuide[4747:90081] Resetting plugins due to page load.
+2015-05-14 22:34:20.965 AmsterdamGuide[4747:90081] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/96BA44BE-DB29-4A34-A66A-0989C15D97FB/AmsterdamGuide.app/www/index.html
+2015-05-14 22:34:25.248 AmsterdamGuide[4747:90081] details
+2015-05-14 22:34:26.676 AmsterdamGuide[4747:90081] undefined is cordova
+2015-05-14 22:35:16.319 AmsterdamGuide[4747:90081] undefined is cordova
+2015-05-14 22:38:24.574 AmsterdamGuide[5002:94034] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/5F71C8C9-1693-418C-83E4-816FFAF51DA5/Library/Cookies/Cookies.binarycookies
+2015-05-14 22:38:24.689 AmsterdamGuide[5002:94034] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 22:38:24.689 AmsterdamGuide[5002:94034] Multi-tasking -> Device: YES, App: YES
+2015-05-14 22:38:24.692 AmsterdamGuide[5002:94034] Unlimited access to network resources
+2015-05-14 22:38:24.695 AmsterdamGuide[5002:94034] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 22:38:24.906 AmsterdamGuide[5002:94034] [CDVTimer][socialsharing] 51.878035ms
+2015-05-14 22:38:24.906 AmsterdamGuide[5002:94034] [CDVTimer][keyboard] 0.059009ms
+2015-05-14 22:38:24.918 AmsterdamGuide[5002:94034] [CDVTimer][statusbar] 11.512995ms
+2015-05-14 22:38:24.918 AmsterdamGuide[5002:94034] [CDVTimer][TotalPluginStartup] 63.840985ms
+2015-05-14 22:38:24.972 AmsterdamGuide[5002:94034] Resetting plugins due to page load.
+2015-05-14 22:38:25.421 AmsterdamGuide[5002:94034] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/90406FA1-72E9-4A5C-9EBB-5CB5A01DB5FC/AmsterdamGuide.app/www/index.html
+2015-05-14 22:38:27.206 AmsterdamGuide[5002:94034] details
+2015-05-14 22:38:28.421 AmsterdamGuide[5002:94034] false is cordova
+2015-05-14 22:40:35.312 AmsterdamGuide[5445:97087] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Data/Application/6D2A9D47-33D3-4B96-9E19-EA62EF865BEC/Library/Cookies/Cookies.binarycookies
+2015-05-14 22:40:35.439 AmsterdamGuide[5445:97087] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 22:40:35.440 AmsterdamGuide[5445:97087] Multi-tasking -> Device: YES, App: YES
+2015-05-14 22:40:35.443 AmsterdamGuide[5445:97087] Unlimited access to network resources
+2015-05-14 22:40:35.446 AmsterdamGuide[5445:97087] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-14 22:40:35.671 AmsterdamGuide[5445:97087] [CDVTimer][socialsharing] 55.049002ms
+2015-05-14 22:40:35.671 AmsterdamGuide[5445:97087] [CDVTimer][keyboard] 0.054002ms
+2015-05-14 22:40:35.683 AmsterdamGuide[5445:97087] [CDVTimer][statusbar] 12.268007ms
+2015-05-14 22:40:35.683 AmsterdamGuide[5445:97087] [CDVTimer][TotalPluginStartup] 67.772985ms
+2015-05-14 22:40:35.730 AmsterdamGuide[5445:97087] Resetting plugins due to page load.
+2015-05-14 22:40:36.138 AmsterdamGuide[5445:97087] Finished load of: file:///Users/hschinsk/Library/Developer/CoreSimulator/Devices/45CEDB50-A244-4A46-A646-94A07EA4C210/data/Containers/Bundle/Application/7A703F21-BA4A-4AC8-9952-C9F40EDB089E/AmsterdamGuide.app/www/index.html
+2015-05-14 22:40:46.936 AmsterdamGuide[5445:97087] details
+2015-05-14 22:40:48.237 AmsterdamGuide[5445:97087] [object Object] is cordova
