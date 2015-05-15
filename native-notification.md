@@ -8,11 +8,12 @@ A default JavaScript alert gives away the fact that your application is not nati
 
 ##Steps
 
-1. Make sure you are in the **workshop** directory and add the [native dialogs plugin](https://github.com/apache/cordova-plugin-dialogs/) to your project:
+1. Make sure you are in the **pg-workshop** directory and add the [native dialogs plugin](https://github.com/apache/cordova-plugin-dialogs/) to your project:
   
     ```
     phonegap plugin add org.apache.cordova.dialogs
     ```
+    > When doing basic testing with the PhoneGap Developer app you do not need to add the core PhoneGap plugins  
 
 2. In index.html, add the following script tag (as the first script tag at the bottom of the body):
 
@@ -20,11 +21,12 @@ A default JavaScript alert gives away the fact that your application is not nati
     <script src="cordova.js"></script>
     ```
 
-  >This instructs the Cordova CLI to inject a platform specific version of cordova.js at build time. In other words, cordova.js doesn't need to be (and shouldn't be) present in your project/www folder.
+  >This instructs the PhoneGap CLI to inject a platform specific version of cordova.js at build time. In other words, cordova.js doesn't need to be (and shouldn't be) present in your **pg-workshop/www** folder.
 
-3. When running on a device with the navigator.notification object available (the dialogs plugin is installed), override the window.alert() function and replace its default implementation with a call to navigator.notification.alert(). 
+3. When running on a device, the `navigator.notification` object is available via a core Cordova Dialogs plugin so we can take advantage of
+native alerts. 
 
-    Open **js/app.js**, and add this code to the "Event Registration" block:
+  Open **js/app.js**, and add this code block beneath the "Device Ready Event". 
 
     ```
     document.addEventListener('deviceready', function () {
@@ -40,8 +42,9 @@ A default JavaScript alert gives away the fact that your application is not nati
       }
     }, false);
     ```
+  The above code overrides the `window.alert()` function and replace its default implementation with a call to `navigator.notification.alert()`. 
 
-4. Test the application: click the Help button.
+4. Test the application. Click the info button located on the right side of the home screen header bar. 
     - When you run the application in the browser, you should see a standard browser alert.
     - When you run the application on your device, you should see a native alert.
 

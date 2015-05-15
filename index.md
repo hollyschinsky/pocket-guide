@@ -1,6 +1,6 @@
 ---
 layout: home
-title: PhoneGap Workshop
+title: PhoneGap Day Workshop
 ---
 
 ## What You Will Build

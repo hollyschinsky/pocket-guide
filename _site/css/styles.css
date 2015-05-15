@@ -30,7 +30,8 @@ blockquote {
     padding-bottom: 30px;
     padding-top: 30px;
     /*background-color: #049EC4;*/
-    background: #2d3033;
+    background-color: #2d3033;
+    /*background-color: #ec0236;*/
     color: rgb(236, 236, 236);
 }
 
