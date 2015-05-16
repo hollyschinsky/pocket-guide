@@ -35,7 +35,7 @@
     });
 
 
-    /* -------------- Cordova/PhoneGap APIs ready when deviceready fires ------------------- */
+    /* -------------- Handle deviceready event  ------------------- */
     document.addEventListener('deviceready', function () {
         FastClick.attach(document.body);
 

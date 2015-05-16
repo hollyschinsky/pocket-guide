@@ -21,20 +21,6 @@ var ItemView = function(place) {
         else alert(place.name + " at " + place.location + " has been added to your favorites.");
     }
 
-    this.share = function() {
-        if (window.plugins.socialsharing) {
-            window.plugins.socialsharing.share("Look what I'm going to check out next: " + place.name + ".",
-                'My Amsterdam Trip', null, place.website,
-                function () {
-                    console.log("Success")
-                },
-                function (error) {
-                    console.log("Share fail " + error)
-                });
-        }
-        else console.log("Share plugin not found");
-    }
-
     this.mapIt = function() {
         var coords = new google.maps.LatLng(place.latitude,place.longitude);
 
@@ -53,6 +39,20 @@ var ItemView = function(place) {
             title: place.name + " " + place.location
         });
 
+    }
+
+    this.share = function() {
+        if (window.plugins.socialsharing) {
+            window.plugins.socialsharing.share("Look what I'm going to check out next: " + place.name + ".",
+                'My Amsterdam Trip', null, place.website,
+                function () {
+                    console.log("Success")
+                },
+                function (error) {
+                    console.log("Share fail " + error)
+                });
+        }
+        else console.log("Share plugin not found");
     }
 
     this.initialize();

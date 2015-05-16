@@ -30,7 +30,7 @@
         {{#each this}}
         <li class="table-view-cell media">
             <a href="#items/{{ id }}">
-                <img class="media-object pull-left" src="img/{{pic}}">
+                <img class="media-object pull-left" src="pics/{{pic}}">
 
                 <div class="media-body">
                     {{name}}
@@ -51,7 +51,7 @@
             <span class="icon icon-left-nav"></span>
         </a>
 
-        <h1 class="title">Overview</h1>
+        <h1 class="title">Details</h1>
     </header>
 
     <nav class="bar bar-tab tabbar">
@@ -74,7 +74,7 @@
             <div>
                 <ul class="table-view">
                     <li class="table-view-cell media">
-                        <img class="media-object pull-left" src="img/{{pic}}">
+                        <img class="media-object pull-left" src="pics/{{pic}}">
 
                         <div class="media-body">
                             {{name}}
@@ -104,12 +104,10 @@
             </div>
         </div>
     </div>
-
-
 </script>
 
-<!-- Google Maps API - sign up for key at -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_BjX-8zj5FNULQ3jerzHSTCCdb0OqZTI"></script>
+<!-- Google Maps API - learn how to sign up for key at https://developers.google.com/maps/documentation/javascript/tutorial#api_key -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=replace-with-dev-key>"></script>
 
 <script src="cordova.js"></script>
 <script src="lib/jquery.js"></script>

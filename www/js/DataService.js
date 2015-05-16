@@ -10,10 +10,10 @@ var DataService = function() {
     this.findById = function(id) {
         var deferred = $.Deferred();
         var place = null;
-        var l = places.length;
+        var l = items.length;
         for (var i=0; i < l; i++) {
-            if (places[i].id === id) {
-                place = places[i];
+            if (items[i].id === id) {
+                place = items[i];
                 break;
             }
         }
@@ -23,7 +23,7 @@ var DataService = function() {
 
     this.findByName = function(searchKey) {
         var deferred = $.Deferred();
-        var results = places.filter(function(element) {
+        var results = items.filter(function(element) {
             return element.name.toLowerCase().indexOf(searchKey.toLowerCase()) > -1;
         });
         deferred.resolve(results);
@@ -32,11 +32,11 @@ var DataService = function() {
 
     this.findAll = function() {
         var deferred = $.Deferred();
-        deferred.resolve(places);
+        deferred.resolve(items);
         return deferred.promise();
     }
 
-    var places = [
+    var items = [
         {   "id": 1,
             "name": "The Rijksmuseum",
             "category": "Attraction",
