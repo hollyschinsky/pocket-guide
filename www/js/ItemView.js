@@ -14,8 +14,6 @@ var ItemView = function(place) {
     };
 
     this.mapIt = function(event) {
-        alert("Connection " + navigator.connection.type);
-
         if (navigator.connection && navigator.connection.type != Connection.NONE) {
             var there = new google.maps.LatLng(place.latitude, place.longitude);
 
