@@ -23,34 +23,44 @@ or clone the repository:
 1. Unzip (if needed) and copy the contents of **www-begin** into your project's **www** folder.<br><br> 
     **NOTE:** Your project folder name must remain www, so it's better to copy in just the contents rather than the folder itself. 
     If you copy the www-begin folder itself in then you will need to rename it to www.
-
-1. Try out the application. Depending on the method chosen, you may or may not be able to access every feature. 
-            
-    1. Open **www/index.html** in a browser on your computer.
-        
-    2. Using PhoneGap Developer App with the PhoneGap CLI        
     
-    - Run `$ phonegap serve`
-    - Connect to the URL reported from the `serve` command in the PhoneGap Developer app on a mobile device
+1. Copy the **config.xml** file from the root of the repo project and replace yours with it to save from having to install plugin
+dependencies. If you don't replace yours and want to test with the CLI on your local hard drive you will need to manually add the 
+plugins as they are needed in the lessons. If you're using the PhoneGap Developer App to preview the apps, it will already include
+ the core PhoneGap plugins but some used in this workshop are 3rd party and will not work. 
+
+
+### Run the Initial Application
+1. Serve and pair with the PhoneGap Developer App from the PhoneGap CLI or PhoneGap Desktop: 
+  
+   - **From PhoneGap CLI**            
+     1. Run `$ phonegap serve`
+     2. Connect to the URL reported from the `serve` command in the PhoneGap Developer app on a mobile device
  
-    3. Using PhoneGap Developer App with PhoneGap Desktop
-    - Click the play **>** button if your project is not active 
-    - Connect to the URL reported in the green bar at the bottom of PhoneGap Desktop (eg: Server is running on http://...)
+     
+   - **From PhoneGap Desktop**
+     1. Click the play **>** button if your project is not active 
+     2. Connect to the URL reported from PhoneGap Desktop in the PhoneGap Developer app on a mobile device
+            
+   - **Advanced Option:** those with proper local setup can run on device/emulator with PhoneGap CLI 
         
-    4. On Device/Emulator with PhoneGap CLI 
-        
-            $ phonegap run ios
-     or
+            $ phonegap run ios    
             
             $ phonegap run android                
       
-          > This option requires a mobile SDK setup. If you have Mac and Xcode you should be able to use iOS, but Android requires [additional SDK installation and setup](http://developer.android.com/sdk). 
-                    
-1. Ensure that you see the application load with a listing of Amsterdam's most popular locations. Try typing in a few characters to see the filtering
- on the name. 
+      > This option requires a mobile SDK setup. If you have Mac and Xcode you should be able to use iOS, but Android requires [additional SDK installation and setup](http://developer.android.com/sdk). 
 
-> Part-by-Part solutions are available in the [**solutions** directory](http://github.com/hollyschinsky/pocket-guide/www/solutions) under **pocket-guide**. 
-The [**www-final**](http://github.com/hollyschinsky/pocket-guide/www-final) folder contains the final project. 
+       **NOTE:** If you don't have the PhoneGap Developer App, you can still serve and run the app in a browser by entering the location server is running on.   
+
+2. Ensure you see the application load with a listing of Amsterdam's most popular locations. Try typing in a few characters to see the filtering
+ on the name.    
+    
+    <img class="screenshot-lg" src="images/main-view.jpg"/>
+ 
+  **Note:** We'll be adding additional features as we go along so not everything will be functional at this point.
+
+> Part-by-Part solutions are available in the [repo](http://github.com/hollyschinsky/pocket-guide/) for each lesson as well if you get stuck. The
+final project is also there. 
  
 
 <div class="row" style="margin-top:40px;">

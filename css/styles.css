@@ -89,9 +89,9 @@ blockquote {
     /*color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;*/
-    /*color: #ffffff;*/
-    color: rgb(236, 236, 236);
-    background-color: #2d3033;
+    color: #000000;
+    /*color: rgb(236, 236, 236);*/
+    background-color: #fff7ec;
     border-color: rgb(210, 209, 210);
 }
 
@@ -119,3 +119,19 @@ h2 {
     max-width: 25%;
     max-height: 25%;
 }
+.screenshot-lg {
+    max-width: 40%;
+    max-height: 40%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.screenshot-lg-center {
+     max-width: 40%;
+     max-height: 40%;
+     align-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
