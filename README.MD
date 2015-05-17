@@ -4,7 +4,7 @@ PhoneGap Day EU workshop - Amsterdam Pocket Tour Guide. Simple mobile applicatio
  and implements mobile best practices such as single page architecture, hardware accelerated transitions, click delay handling, 
  and native notifications.
  
-### [Main Workshop Site with Step by Step Modules](hollyschinsky.github.io/pocket-guide)
+### [Workshop Guide with Step by Step Modules](http://hollyschinsky.github.io/pocket-guide)
 
 Requirements
 ============
