@@ -16,7 +16,7 @@ However we can add some handling to detect an offline situation using the Cordov
 
 2. In **www/js/ItemView.js**, add the following if statement as the first line in the `mapIt` function to surround all of the Google Maps existing code currently there:
 
-        if (navigator.connection.type != Connection.NONE) {
+        if (navigator.connection && navigator.connection.type != Connection.NONE) {
             
     
         } 

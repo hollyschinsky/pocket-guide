@@ -57,6 +57,8 @@ when it's needed.
                 });
             };
 
+> See [this workshop](http://hollyschinsky.github.io/phonegap-workshop/) for a better understanding of how this architecture was put together. 
+
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
 <a href="module2.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
