@@ -59,7 +59,7 @@ phonegap emulate android
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="create-project.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
+<a href="module1.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
 Previous</a>
 <a href="setup-files.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>

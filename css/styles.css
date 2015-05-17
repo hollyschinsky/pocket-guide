@@ -115,3 +115,7 @@ h2 {
 .extraContent {
     padding-left: 10px;
 }
+.screenshot {
+    max-width: 25%;
+    max-height: 25%;
+}
