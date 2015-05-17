@@ -34,29 +34,34 @@
         router.start();
     });
 
-
-    /* -------------- Handle deviceready event  ------------------- */
+    /* -------------- Handle Cordova deviceready event - indicates the device API's are ready for use ------------------- */
     document.addEventListener('deviceready', function () {
         FastClick.attach(document.body);
-
-        StatusBar.overlaysWebView(false);
-        StatusBar.backgroundColorByHexString('#ec4549');
-        StatusBar.styleLightContent();
 
         if (navigator.notification) { // Override default HTML alert with native dialog
             window.alert = function (message) {
                 navigator.notification.alert(
                     message,                // message
                     null,                   // callback
-                    "Pocket Guide", // title
+                    "Pocket Guide",         // title
                     'OK'                    // buttonName
-                    );
+                );
             };
-        } else console.log("Notification plugin not found");
+        } else console.log("Notification plugin not found or not supported.");
 
-        if (cordova.plugins.Keyboard)
+        // Style the status bar and handle the iOS overlap issue
+        if (window.StatusBar) {
+            StatusBar.overlaysWebView(false);
+            StatusBar.backgroundColorByHexString('#ec4549');
+            StatusBar.styleLightContent();
+        }
+        else console.log("Status Bar plugin not found or not supported.");
+
+        // Don't display accessory bar from form inputs
+        if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
             cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-        else  console.log("Keyboard plugin not found");
+        }
+        else console.log("Keyboard plugin not found or not supported.");
 
     }, false);
 

@@ -1,7 +1,10 @@
+/*
+ * Defines a general asynchronous API for returning data to our views. This uses in-memory JSON but could be changed to support localstorage,
+ * websql or another method underneath without changing the API calls like a pluggable adapter.
+ */
 var DataService = function() {
 
     this.initialize = function() {
-        // No Initialization required
         var deferred = $.Deferred();
         deferred.resolve();
         return deferred.promise();
@@ -49,7 +52,9 @@ var DataService = function() {
                 "The Rijksmuseum is a museum dedicated to arts and history in Amsterdam. The museum has 8,000 objects of art and history on display from their total collection of 1 million objects from the years 1200–2000."
             ],
             "reviews": [
+                "Lovely museum with a huge collection. Don't plan to see it all but better pick your favourite style. Great multimedia guide (tip: you can download the app for free on you smartphone and there is free WiFi inside).",
                 "Not to be missed!",
+                "One of the best collections in the world. We stayed for 5 hours and couldn't finish everything. Great place for art and history lovers. Café Restaurant inside is a highlight.",
                 "I absolutely love the Rijks. There are beautiful Vermeers, Van Goghs, and of course you can't forget the Rembrandts, especially the Night's Watch. Must see for art lovers!",
                 "The Rijks Museum is absolutely gorgeous and probably one of the best experiences in Amsterdam."
             ],
@@ -71,7 +76,10 @@ var DataService = function() {
             "reviews": [
                 "Very informative and loads of history!",
                 "Totally worthwhile but one suggestion - order your tickets online and walk right in. People were waiting in line for hours which is so unnecessary.",
-                "Sobering, moving experience..."
+                "Sobering, moving experience...",
+                "I rarely write reviews, but this was an incredible experience.  The museum runs in a very organized fashion!  I read Anne's diary more than 10 years ago, so I thought I knew what to expect... but I was in tears by the end of the museum tour.",
+                "It moves at a steady pace and there is WiFi available to keep you entertained. I recommend purchasing a ticket in advance! The exhibit is fairly priced at €9 per adult."
+
             ],
             hours: "9:00am - 7:00pm daily",
             website: "http://www.annefrank.org/en/Museum/"
@@ -91,7 +99,8 @@ var DataService = function() {
             "reviews": [
                 "De Pijp has a bit of everything - parks, museums, markets, and the regular part of the city that isn't catering to the tourists.",
                 "My favorite neighborhood in Amsterdam is “De Pijp,” which translates to “The Pipe.",
-                "My favorite hangout is the Pilsvogel, located on the corner of the square. It features a great outdoor seating area making it a great people watching spot."
+                "My favorite hangout is the Pilsvogel, located on the corner of the square. It features a great outdoor seating area making it a great people watching spot.",
+                "While I didn't believe it at first, Heineken in Holland tastes much sweeter and crispier than in the US - I'm guessing it has to do with the freshness.  Eitherway, I drank my fill!"
             ],
             hours: "24 hours",
             website: "http://www.iamsterdam.com/en/visiting/areas/amsterdam-neighbourhoods/zuid/de-pijp"
@@ -110,6 +119,7 @@ var DataService = function() {
             ],
             "reviews": [
                 "Let me warn everyone that I am not a huge fan of art museums, but I am a fan of Van Gogh and I wanted to learn about his craziness (and see some of his work). This museum was perfect for what I was looking for.",
+                "Do not visit Amsterdam without visiting the Van Gogh Museum. The museum is smartly laid out. The display signs are in both Dutch and English (maybe another language - not sure) and are easy to read and understand. I would guess that about 70% of all of the famous van Gogh artwork you have seen over the years is contained in this museum.",
                 "Be warned if you bring a back pack or large bag they'll make you check it so try to avoid doing that.",
                 "This museum is a must-see in amsterdam - but also a must is pre-buying tickets. Even better if you can buy timed tickets."
             ],
@@ -128,6 +138,7 @@ var DataService = function() {
                 "Vondelpark is the favorite leafy retreat of just about everyone. It's the place where sun is worshipped, joints are smoked, beer is quaffed, picnics are luxuriated over, bands are grooved to, dogs are walked, balls are kicked, lanes are biked and jogged."
             ],
             "reviews": [
+                "I am a nature-lover so after spending a major part of 2 days roaming around Amsterdam's stone paved streets and navigating through an infinite number of tourists, I was craving for some peace and quiet. That's when I stumbled upon this corner of heaven, complete with beautiful lakes, grasslands, jogger's tracks and lush greenery all around. Go and cool off your aching feet there",
                 "This park is beautiful and shouldn't be missed on a sunny day.",
                 "There is an open air theatre where is music and shows every weekend during the summer.",
                 "As if strolling through Vondelpark on a summer afternoon weren't rich enough, wild parrots suddenly alit from a big, leafy tree."
@@ -186,8 +197,9 @@ var DataService = function() {
             ],
             "reviews": [
                 "The market is a great size, lots of options but not so big that you get overwhelmed. In addition to clothes, housewares and jewelry, there are great fruits/vegetables, flowers, and other food.",
-                "They have everything from food, jeans, socks, underwear, flowers, knic knacks, cheese, leggings, baked goods, jewelry! I got a brand new pair of jeans here for 10 euro.",
-                "My favorite street in Amsterdam!"
+                "Lovely market, great for buying fresh veggies and meats. If you go, definitely get a freshly made stroopwaffel. They are to die for!",
+                "My favorite street in Amsterdam!",
+                "They have everything from food, jeans, socks, underwear, flowers, knic knacks, cheese, leggings, baked goods, jewelry! I got a brand new pair of jeans here for 10 euro."
             ],
             hours: "9:00am - 5:00pm, closed Sunday",
             website: "http://www.albertcuypmarkt.nl/"

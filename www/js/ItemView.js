@@ -13,37 +13,56 @@ var ItemView = function(place) {
         return this;
     };
 
-    this.favorite = function() {
-        favorites.push(place);
+    // Map the location using Google Maps v3 JavaScript API
+    this.mapIt = function(event) {
+        event.preventDefault();
+        if (navigator.connection.type != Connection.NONE) {
+            var there = new google.maps.LatLng(place.latitude, place.longitude);
 
-        if (window.cordova)
-            window.plugins.toast.showShortCenter(place.name + " at " + place.location + " has been added to your favorites.");
-        else alert(place.name + " at " + place.location + " has been added to your favorites.");
+            var mapOptions = {
+                center: {lat: place.latitude, lng: place.longitude},
+                zoom: 20
+            };
+
+            // Use existing empty map canvas element to show new map at that position and set a height
+            $('#map_canvas').css('height', '400px');
+            var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+            // When the tiles load, add a marker to denote title and address of location
+            google.maps.event.addListener(map, 'tilesloaded', function() {
+
+                var marker = new google.maps.Marker({
+                    position: there,
+                    map: map,
+                    title: place.name + " " + place.location
+                });
+
+                // LESSON - USE GEOLOCATION TO OBTAIN OUR CURRENT POSITION AND DISTANCE
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    var here = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+                    // Use Google Maps Geometry library to compute distance between two points and produce a message
+                    var distance = (google.maps.geometry.spherical.computeDistanceBetween(here, there) / 1000).toFixed(2);
+                    var msg = "You are " + distance + "KM away from here";
+
+                    if (window.cordova && window.plugins && window.plugins.toast)
+                        window.plugins.toast.showShortCenter(msg);
+                    else alert(msg);
+
+                },function(error){console.log("Error retrieving location " + error.code + " " + error.message)});
+
+                google.maps.event.removeListener(map, 'tilesloaded');
+
+            });
+        }
+        else alert("Mapping requires a connection but we have detected you are currently offline. ");
     }
 
-    this.mapIt = function() {
-        var coords = new google.maps.LatLng(place.latitude,place.longitude);
-
-        var mapOptions = {
-            center: { lat: place.latitude, lng:place.longitude },
-            zoom: 20
-        };
-
-        $('#map_canvas').css('height','400px');
-        var map = new google.maps.Map(document.getElementById('map_canvas'),
-            mapOptions);
-
-        var marker = new google.maps.Marker({
-            position: coords,
-            map: map,
-            title: place.name + " " + place.location
-        });
-
-    }
-
-    this.share = function() {
-        if (window.plugins.socialsharing) {
-            window.plugins.socialsharing.share("Look what I'm going to check out next: " + place.name + ".",
+    // Use the social sharing plugin to share on the native OS
+    this.share = function(event) {
+        event.preventDefault();
+        if (window.cordova && window.plugins && window.plugins.socialsharing) {
+            window.plugins.socialsharing.share("Hey look where I'm going next: " + place.name + ".",
                 'My Amsterdam Trip', null, place.website,
                 function () {
                     console.log("Success")
@@ -52,7 +71,18 @@ var ItemView = function(place) {
                     console.log("Share fail " + error)
                 });
         }
-        else console.log("Share plugin not found");
+        else alert("Social sharing plugin not found or not supported.");
+    }
+
+
+    // Implemented for future use to show a list of favorites
+    this.favorite = function(event) {
+        event.preventDefault();
+        favorites.push(place);
+
+        if (window.cordova && window.plugins && window.plugins.toast)
+            window.plugins.toast.showShortCenter(place.name + " at " + place.location + " has been added to your favorites.");
+        else alert(place.name + " at " + place.location + " has been added to your favorites.");
     }
 
     this.initialize();
