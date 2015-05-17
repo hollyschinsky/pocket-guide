@@ -3,10 +3,12 @@ PhoneGap Day EU workshop - Amsterdam Pocket Tour Guide. Simple mobile applicatio
  in Amsterdam with info, reviews and ratings. This app uses using Google Maps, social sharing, toast notifications features
  and implements mobile best practices such as single page architecture, hardware accelerated transitions, click delay handling, 
  and native notifications.
+ 
+### [Main Workshop Site with Step by Step Modules](hollyschinsky.github.io/pocket-guide)
 
 Requirements
 ============
-- Ratchet.js / fonts from font-awesome 
+- Ratchet.js  
 - Fastclick.js
 - Handlebars.js
 - jQuery.js
@@ -19,7 +21,7 @@ The Google Maps JavaScript API is used to map locations in this app. To use it y
  [here](https://developers.google.com/). Once obtained, open index.html within the www folder and replace the following 
   *key* attribute with yours:
    
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=your-dev-key-here"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=your-dev-key-here&geometry"></script>
 
 **Google Maps Developer Guides [here](https://developers.google.com/maps/documentation/javascript/)** 
 
@@ -36,19 +38,6 @@ project repo. Simply create a PhoneGap project then replace the config.xml and w
         
         $ phonegap plugin add cordova-plugin-device
         
-- cordova-plugin-dialogs 1.1.0 "Notification"
-        
-        $ phonegap plugin add cordova-plugin-notification
-
-- cordova-plugin-network-information
-        
-        $ phonegap plugin add cordova-plugin-network-information
-
-- cordova-plugin-geolocation
-        
-        $ phonegap plugin add cordova-plugin-geolocation
-
-
 - cordova-plugin-whitelist 1.0.0 "Whitelist"
         
         $ phonegap plugin add cordova-plugin-whitelist
@@ -57,9 +46,17 @@ project repo. Simply create a PhoneGap project then replace the config.xml and w
         
         $ phonegap plugin add cordova-plugin-statusbar
 
-- cordova-plugin-whitelist 1.0.0 "Whitelist"
+- cordova-plugin-dialogs 1.1.0 "Notification"
         
-        $ phonegap plugin add cordova-plugin-whitelist
+        $ phonegap plugin add cordova-plugin-dialogs
+        
+- cordova-plugin-geolocation 1.0.0 "Geolocation"
+        
+        $ phonegap plugin add cordova-plugin-geolocation
+
+- cordova-plugin-network-information 1.0.0 "Network Information"
+
+        $ phonegap plugin add cordova-plugin-network-information
 
 - nl.x-services.plugins.socialsharing 4.3.18 "SocialSharing"
         

@@ -13,10 +13,10 @@ var ItemView = function(place) {
         return this;
     };
 
-    // Map the location using Google Maps v3 JavaScript API
     this.mapIt = function(event) {
-        event.preventDefault();
-        if (navigator.connection.type != Connection.NONE) {
+        alert("Connection " + navigator.connection.type);
+
+        if (navigator.connection && navigator.connection.type != Connection.NONE) {
             var there = new google.maps.LatLng(place.latitude, place.longitude);
 
             var mapOptions = {
@@ -37,7 +37,6 @@ var ItemView = function(place) {
                     title: place.name + " " + place.location
                 });
 
-                // LESSON - USE GEOLOCATION TO OBTAIN OUR CURRENT POSITION AND DISTANCE
                 navigator.geolocation.getCurrentPosition(function (position) {
                     var here = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
@@ -60,7 +59,6 @@ var ItemView = function(place) {
 
     // Use the social sharing plugin to share on the native OS
     this.share = function(event) {
-        event.preventDefault();
         if (window.cordova && window.plugins && window.plugins.socialsharing) {
             window.plugins.socialsharing.share("Hey look where I'm going next: " + place.name + ".",
                 'My Amsterdam Trip', null, place.website,
@@ -77,7 +75,6 @@ var ItemView = function(place) {
 
     // Implemented for future use to show a list of favorites
     this.favorite = function(event) {
-        event.preventDefault();
         favorites.push(place);
 
         if (window.cordova && window.plugins && window.plugins.toast)
