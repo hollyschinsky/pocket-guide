@@ -32,7 +32,7 @@ SDK for that platform (iOS SDK, Android SDK, etc.) installed on your system.
 ## Useful Resources
 1. [PhoneGap Workshop](http://hollyschinsky.github.io/phonegap-workshop) - a similar app with a workshop that goes step by step creating the routing, templates and views to understand Single Page Architecture. 
 2. [Conference Tracker](http://hollyschinsky.github.io/conference-tracker) - a conference app built with Ionic/AngularJS with some more advanced features
-3. [Google Maps API Docs](https://developers.google.com/maps/documentation/javascript/tutorial)
+3. [Google Maps API Docs](https://developers.google.com/maps/documentation/javascript/tutorial) - if you want to extend the maps functionality
 
 ## Issues/Feedback
 
