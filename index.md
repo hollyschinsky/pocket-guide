@@ -29,10 +29,14 @@ the app to provide a more native experience.
 [PhoneGap Developer App](app.developer.com) with some limitations. If you want the full support of the native APIs then you will need the mobile 
 SDK for that platform (iOS SDK, Android SDK, etc.) installed on your system. 
 
+## Useful Resources
+1. [PhoneGap Workshop](http://hollyschinsky.github.io/phonegap-workshop) - a similar app with a workshop that goes step by step creating the routing, templates and views to understand Single Page Architecture. 
+2. [Conference Tracker](http://hollyschinsky.github.io/conference-tracker) - a conference app built with Ionic/AngularJS with some more advanced features
+3. [Google Maps API Docs](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ## Issues/Feedback
 
-- Please create an issue [here](https://github.com/hollyschinsky/phonegap-workshop/issues) if you run
+- Please create an issue [here](https://github.com/hollyschinsky/pocket-guide/issues) if you run
 into any problems or if you have feedback.
 
 - You can also use the Comments section at the bottom of each module to ask a question or report a problem.
