@@ -20,9 +20,9 @@ or clone the repository:
 
 1. Delete the contents of your project's **www** folder.
 
-1. Unzip (if needed) and copy the contents of **www-begin** into your project's **www** folder.<br><br> 
+1. Unzip (if needed) and copy the contents of **solutions/www1** into your project's **www** folder.<br><br> 
     **NOTE:** Your project folder name must remain www, so it's better to copy in just the contents rather than the folder itself. 
-    If you copy the www-begin folder itself in then you will need to rename it to www.
+    If you copy the *www1* folder itself in then you will need to rename it to *www*.
     
 1. Copy the **config.xml** file from the root of the repo project and replace yours with it to save from having to install plugin
 dependencies. If you don't replace yours and want to test with the CLI on your local hard drive you will need to manually add the 
@@ -42,11 +42,12 @@ plugins as they are needed in the lessons. If you're using the PhoneGap Develope
      1. Click the play **>** button if your project is not active 
      2. Connect to the URL reported from PhoneGap Desktop in the PhoneGap Developer app on a mobile device
             
-   - **Advanced Option:** those with proper local setup can run on device/emulator with PhoneGap CLI 
+   - **Advanced Option:** those with proper local setup can run on device/emulator with PhoneGap CLI with one of the following:
         
-            $ phonegap run ios    
-            
-            $ phonegap run android                
+            $ phonegap run ios
+            $ phonegap run ios --device
+            $ phonegap run android             
+            $ phonegap run android --device               
       
       > This option requires a mobile SDK setup. If you have Mac and Xcode you should be able to use iOS, but Android requires [additional SDK installation and setup](http://developer.android.com/sdk). 
 
@@ -59,9 +60,9 @@ plugins as they are needed in the lessons. If you're using the PhoneGap Develope
  
   **Note:** We'll be adding additional features as we go along so not everything will be functional at this point.
 
-> Part-by-Part solutions are available in the [repo](http://github.com/hollyschinsky/pocket-guide/) for each lesson as well if you get stuck. The
-final project is also there. 
- 
+> Part-by-Part solutions are available in the [repo](http://github.com/hollyschinsky/pocket-guide/solutions) folder for each lesson. The number of the lesson
+corresponds to the folder and represents the completed lesson for that module. 
+
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
