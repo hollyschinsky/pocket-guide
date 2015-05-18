@@ -1,67 +1,90 @@
 ---
 layout: module
-title: Module 12&#58; Add Native Share Feature
+title: Module 14&#58; Adding Polish | Configuration Tips
 ---
-In this lesson we'll learn how to share a destination's information through the device's native sharing options. 
+This module will take you through a couple steps to polish the application and give you some tips on configuration settings to be aware of.     
 
-### Steps
+### Status Bar Handling
 
-1. In **index.html**, add the following tab to the tab bar in the *item-tpl* template:
-
-    ```
-    <div class="shareBtn tab-item">
-        <span class="icon icon-share"></span>
-        <span class="tab-label">Share</span>
-    </div>
-    ```
-
-1. In the **initialize()** function of **ItemView.js**, register an event listener for the click event of the *share* button.
-
-        this.$el.on('click', '.shareBtn', this.share);    
-
-1. While in **ItemView.js**, define the `share` event handler as follows:
-
-         this.share = function(event) {
-            if (window.cordova && window.plugins && window.plugins.socialsharing) {
-                window.plugins.socialsharing.share("Hey look where I'm going next: " + place.name + ".",
-                    'My Amsterdam Trip', null, place.website,
-                    function () {
-                        console.log("Success")
-                    },
-                    function (error) {
-                        console.log("Share fail " + error)
-                    });
-            }
-            else alert("Social sharing plugin not found or not supported.");
-        }
-    
-
-1. Run the application again and click the share button to ensure you see the following:
-
-    <img class="screensho-lgt" src="images/flow5-social-share.jpg"/>
-    
->The options shown here will depend on your particular devices' native sharing options.
-
-### Dependencies
- 
-    - [Toast 3rd Party Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
+  In iOS7 and above the status bar overlaps the application views. As a result, the status bar text may collide with the 
+  application's header text as shown in the screenshot here:
   
-     $ phonegap plugin add nl.x-services.plugins.socialsharing
+  <img class="screenshot-lg" src="images/without-statusbar-plugin.jpg"/>
+
+   > The status bar plugin has been implemented to fix this. It is already included in the config.xml 
+   for the application but if you need to add it, use the following: `phonegap plugin add org.apache.cordova.statusbar`
     
+
+1. There are two options for using the Status Bar plugin to fix this issue, via configuration or programmatically. 
+
+   In either case, you can set the *overlay* setting to false to move the app content below the status bar. There are options
+   to set the status bar background style and text/icons to match the app header colors. The code was implemented in this app
+   already but take a moment to remove it from **www/js/app.js** and re-run it to see the effect, or remove it and add the 
+   config.xml preferences and test it out.
+
+   - **Programatically**
+        In **www/js/app.js** and add the following code at the top of the `deviceready` handler:
+        
+          if (window.StatusBar) {
+              StatusBar.overlaysWebView(false);
+              StatusBar.backgroundColorByHexString('#ec4549');
+              StatusBar.styleLightContent();
+          }
+          else console.log("Status Bar plugin not found or not supported.");
+
+        
+   - **Configuration (config.xml)**
+    In your **config.xml** file (in the root of your project), add the following lines:
+  
+         
+            <preference name="StatusBarOverlaysWebView" value="false" />
+            <preference name="StatusBarBackgroundColor" value="#209dc2"/>
+            <preference name="StatusBarStyle" value="lightcontent" />
+            
+        
+2. With one of these solutions in place and the Status Bar Plugin added, you should see the following with no overlap:
+
+<img class="screenshot-lg" src="images/main-view.jpg"/>
     
- > The Social Sharing plugin is already included in the config.xml from the repo and will be added automatically if you are using it with the 
-  CLI locally.  If you're using the PhoneGap Developer App to preview your app however, this will not work since it is a 3rd party plugin.
+      
+### Keyboard Accessory Bar 
+
+We can suppress the accessory keyboard that pops up with the **Done** button on it as shown in this screenshot by using a custom plugin from the Ionic Framework and then use a method to hide it:
+
+<img class="screenshot-lg" src="images/search-keyboard-acc-bar.jpg"/>
 
 
-<div class="row" style="margin-top:40px;">
-<div class="col-sm-12">
-<a href="add-to-calendar.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
-Previous</a>
-<a href="statusbar.html" class="btn btn-default pull-right">Next <i class="glyphicon 
-glyphicon-chevron-right"></i></a>
+> We can use a keyboard plugin from Ionic to hide this. This plugin is already included in the config.xml for the application but if you need to add it, use the 
+   following: `phonegap plugin add cordova.ionic.keyboard`  
+  
+1. To hide it, open **www/js/app.js** and add the following code to the `deviceready` handler:
 
 
-</div>
-</div>
+        if (cordova.plugins.Keyboard)
+            cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+           
+
+2. Now build the application again and test to see the result.
+
+<img class="screenshot-lg" src="images/search-no-keyboard-acc.jpg"/>
+
+### Turn off WebView Bounce / Overscroll Effect
+You may notice if you pull down on your app from the header bar, you will see a black space between it and the Status Bar and a 
+bounce effect on iOS as shown below. 
+
+<img class="screenshot-lg" src="images/disallow-overscroll.jpg"/>
 
 
+<br><br>
+You can disable this effect by setting a property in the config.xml file. 
+
+1. In the **config.xml** in the root of your project, add the following property to the end of the preferences:
+
+
+        <preference name="DisallowOverscroll" value="true" />
+
+
+2. Now build and run the application again and the webview (your app) should stay in place. 
+
+ 
+ 

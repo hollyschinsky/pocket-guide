@@ -17,13 +17,14 @@ However we can add some handling to detect an offline situation using the Cordov
 2. In **www/js/ItemView.js**, add the following `if` statement as the first line in the `mapIt` function around the Google Maps existing code currently there, with
 an else alert to notify the user they are offline in that event:
 
-        if (navigator.connection && navigator.connection.type != Connection.NONE) {
+        if (navigator.connection && navigator.connection.type == Connection.NONE) {
+            alert("Mapping requires a network connection but we have detected you are currently offline. ");
+        }
+        else {
             // Google maps code here 
             // var there = new google.maps.LatLng(place.latitude, place.longitude);        
             ...
-        } 
-        else alert("Mapping requires a connection but we have detected you are currently offline. ");
-        
+        }
 
 >This is simply checking to see if there's a connection and calling the mapping APIs if there is, otherwise just throwing an alert for 
 lesson purposes. However there are events in this plugin you can use to handle when the user comes back online after being offline and vice 

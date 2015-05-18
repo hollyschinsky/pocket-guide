@@ -39,9 +39,6 @@
     document.addEventListener('deviceready', function () {
         FastClick.attach(document.body);
 
-        StatusBar.overlaysWebView(false);
-        StatusBar.backgroundColorByHexString('#ec4549');
-        StatusBar.styleLightContent();
 
         if (navigator.notification) { // Override default HTML alert with native dialog
             window.alert = function (message) {
@@ -57,6 +54,13 @@
         if (cordova.plugins.Keyboard)
             cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         else  console.log("Keyboard plugin not found");
+
+        if (window.StatusBar) {
+            StatusBar.overlaysWebView(false);
+            StatusBar.backgroundColorByHexString('#ec4549');
+            StatusBar.styleLightContent();
+        }
+        else console.log("Status Bar plugin not found or not supported.");
 
     }, false);
 
