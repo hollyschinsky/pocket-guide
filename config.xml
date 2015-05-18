@@ -2,17 +2,13 @@
 <widget id="org.devgirl.amsterdam.guide" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PocketGuide</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A sample tour guide for PhoneGap Day Workshop 2015.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="dev@cphonegap.com" href="http://phonegap.com">
+        Holly Schinsky
     </author>
     <content src="index.html" />
 
-    <!-- Prevent webview bounce / overscroll effect -->
-    <preference name="DisallowOverscroll" value="true" />
-    <!-- Set global app icon -->
-    <icon src="pgbot-love.png" /> 
 
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -28,6 +24,10 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+
+    <!-- Set global app icon -->
+    <icon src="pgbot-love.png" /> 
+
     <engine name="android" spec="^4.0.0" />
     <engine name="ios" spec="^3.8.0" />
     <plugin name="nl.x-services.plugins.toast" spec="https://github.com/Telerik-Verified-Plugins/Toast" />

@@ -58,7 +58,6 @@
         else console.log("Status Bar plugin not found or not supported.");
 
 
-
     }, false);
 
 }());
