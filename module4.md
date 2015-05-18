@@ -28,7 +28,7 @@ going to tap the target again to perform a double-tap. One popular solution is t
     FastClick.attach(document.body);
     ```
 
-4. Test the application by clicking the info button or list items again, you should no longer feel a delay. 
+4. Test out the change in the application by clicking the info button or tapping list items again, there's no longer a delay. 
 
 
 >You could also check out [this demo](http://sandbox.juurlink.org/fastclick/) from a mobile app to see the difference in milliseconds for the registered events.  
