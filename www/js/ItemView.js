@@ -52,7 +52,7 @@ var ItemView = function(place) {
 
             });
         }
-        else alert("Mapping requires a connection but we have detected you are currently offline. ");
+        else alert("Mapping requires a network connection but we have detected you are currently offline. ");
     }
 
     // Use the social sharing plugin to share on the native OS

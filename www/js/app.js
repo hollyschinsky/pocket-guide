@@ -20,12 +20,13 @@
     var slider = new PageSlider($('body'));
 
     service.initialize().done(function () {
+        // blank route (ie: http://localhost:63342/pocket-guide/www/index.html
         router.addRoute('', function() {
             slider.slidePage(new HomeView(service).render().$el);
         });
 
         router.addRoute('items/:id', function(id) {
-            console.log('details');
+            // #items/:id route (ie: http://localhost:63342/pocket-guide/www/index.html#items/1)
             service.findById(parseInt(id)).done(function(item) {
                 slider.slidePage(new ItemView(item).render().$el);
             });

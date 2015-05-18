@@ -58,8 +58,8 @@ var DataService = function() {
                 "I absolutely love the Rijks. There are beautiful Vermeers, Van Goghs, and of course you can't forget the Rembrandts, especially the Night's Watch. Must see for art lovers!",
                 "The Rijks Museum is absolutely gorgeous and probably one of the best experiences in Amsterdam."
             ],
-            hours: "9:00am - 5:00pm daily",
-            website: "https://www.rijksmuseum.nl/"
+            "hours": "9:00am - 5:00pm daily",
+            "website": "https://www.rijksmuseum.nl/"
         },
         {   "id": 2,
             "name": "Anne Frank House",
@@ -81,8 +81,8 @@ var DataService = function() {
                 "It moves at a steady pace and there is WiFi available to keep you entertained. I recommend purchasing a ticket in advance! The exhibit is fairly priced at €9 per adult."
 
             ],
-            hours: "9:00am - 7:00pm daily",
-            website: "http://www.annefrank.org/en/Museum/"
+            "hours": "9:00am - 7:00pm daily",
+            "website": "http://www.annefrank.org/en/Museum/"
         },
         {   "id": 3,
             "name": "De Pijp",
@@ -102,8 +102,8 @@ var DataService = function() {
                 "My favorite hangout is the Pilsvogel, located on the corner of the square. It features a great outdoor seating area making it a great people watching spot.",
                 "While I didn't believe it at first, Heineken in Holland tastes much sweeter and crispier than in the US - I'm guessing it has to do with the freshness.  Eitherway, I drank my fill!"
             ],
-            hours: "24 hours",
-            website: "http://www.iamsterdam.com/en/visiting/areas/amsterdam-neighbourhoods/zuid/de-pijp"
+            "hours": "24 hours",
+            "website": "http://www.iamsterdam.com/en/visiting/areas/amsterdam-neighbourhoods/zuid/de-pijp"
         },
 
         {   "id": 4,
@@ -123,8 +123,8 @@ var DataService = function() {
                 "Be warned if you bring a back pack or large bag they'll make you check it so try to avoid doing that.",
                 "This museum is a must-see in amsterdam - but also a must is pre-buying tickets. Even better if you can buy timed tickets."
             ],
-            hours: "9:00am - 6:00pm daily ",
-            website: "http://www.vangoghmuseum.nl/"
+            "hours": "9:00am - 6:00pm daily ",
+            "website": "http://www.vangoghmuseum.nl/"
         },
         {   "id": 5,
             "name": "Vondelpark",
@@ -143,8 +143,8 @@ var DataService = function() {
                 "There is an open air theatre where is music and shows every weekend during the summer.",
                 "As if strolling through Vondelpark on a summer afternoon weren't rich enough, wild parrots suddenly alit from a big, leafy tree."
             ],
-            hours: "24 hours",
-            website: "http://www.hetvondelpark.net/"
+            "hours": "24 hours",
+            "website": "http://www.hetvondelpark.net/"
         },
         {   "id": 6,
             "name": "Leidseplein",
@@ -162,8 +162,8 @@ var DataService = function() {
                 "During the day this place is filled with shoppers, people watchers, performers, and just all kinds of life from all over the world.",
                 "Lots of bars, cafés, shops and restaurants. There are hotels in this area so, it's quite touristy. There's also a big casino that's popular amongst tourists."
             ],
-            hours: "24 hours",
-            website: "http://www.amsterdam.info/leidseplein/"
+            "hours": "24 hours",
+            "website": "http://www.amsterdam.info/leidseplein/"
         },
         {   "id": 7,
             "name": "Artis Zoo",
@@ -179,10 +179,10 @@ var DataService = function() {
             "reviews": [
                 "The best part was the abundance of young animals! Young monkeys, giraffes, goats, birds and baboons. Much more active and engaged than the zoos in North America.",
                 "Great zoo, but extra $3 euro for a map on top of the hefty entrance ticket?",
-                "I saw dead baby mice about to be fed to reptiles. You ain't never gonna see that at the Bronx Zoo, yo.",
+                "I saw dead baby mice about to be fed to reptiles. You ain't never gonna see that at the Bronx Zoo, yo."
             ],
-            hours: "9:00am - 6:00pm",
-            website: "http://www.artis.nl/en/artis-royal-zoo/"
+            "hours": "9:00am - 6:00pm",
+            "website": "http://www.artis.nl/en/artis-royal-zoo/"
         },
         {   "id": 8,
             "name": "Albert Cuypmarkt",
@@ -201,8 +201,8 @@ var DataService = function() {
                 "My favorite street in Amsterdam!",
                 "They have everything from food, jeans, socks, underwear, flowers, knic knacks, cheese, leggings, baked goods, jewelry! I got a brand new pair of jeans here for 10 euro."
             ],
-            hours: "9:00am - 5:00pm, closed Sunday",
-            website: "http://www.albertcuypmarkt.nl/"
+            "hours": "9:00am - 5:00pm, closed Sunday",
+            "website": "http://www.albertcuypmarkt.nl/"
         },
 
         {   "id": 9,
@@ -221,8 +221,8 @@ var DataService = function() {
                 "To make the most out of the self guided tour, download the app for your Android or Apple device.  The tour includes a bunch of Heineken's history which includes family stories, previous beer bottles, and past logos.  There are also workers along the way that explain the beer making process.",
                 "The district is not what one would think or as a matter of fact that big. Ironically, there's a church right beside it."
             ],
-            hours: "11:00 - 7:30pm (8:30pm Fri-Sun)",
-            website: "http://www.heinekenexperience.com/"
+            "hours": "11:00 - 7:30pm (8:30pm Fri-Sun)",
+            "website": "http://www.heinekenexperience.com/"
         },
         {   "id": 10,
             "name": "Red Light District",
@@ -240,8 +240,8 @@ var DataService = function() {
                 "It's MUST visit place when you are visiting Amsterdam, just have to see it for yourself to see what all the fuss is about. The area is crowded with tourists but everyone seems to be peaceful.",
                 "The district is not what one would think or as a matter of fact that big. Ironically, there's a church right beside it."
             ],
-            hours: "24 hours",
-            website: "http://www.amsterdam.info/red-light-district/"
+            "hours": "24 hours",
+            "website": "http://www.amsterdam.info/red-light-district/"
         },
      ];
 
