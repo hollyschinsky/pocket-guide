@@ -36,12 +36,16 @@ In this part we'll use the [Cordova Geolocation](https://github.com/apache/cordo
 then determine the distance to the selected list item.
 
 ## Steps
-1. While still within the `mapIt` function in **www/js/ItemView.js**, add the following code block in the `tilesloaded` event handler, 
-right after the marker code and prior to the `tilesloaded` event listener removal:
 
+### With Google Maps Developer Key (only if you created one in setup and can use map features)
+1. While still within the `mapIt` function in **www/js/ItemView.js**, add the following code  
+block into the `tilesloaded` event handler, right after the marker code and prior to the `tilesloaded` event listener removal. 
+See the [solutions/www5/Item.js solution code](https://github.com/hollyschinsky/pocket-guide/blob/master/solutions/www5/js/ItemView.js) if you have any issues. 
+                
         navigator.geolocation.getCurrentPosition(function (position) {
             var here = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
+            // Use Google Maps Geometry library to compute distance between two points and produce a message
             var distance = (google.maps.geometry.spherical.computeDistanceBetween(here, there) / 1000).toFixed(2);
             var msg = "You are " + distance + "KM away from here";
 
@@ -50,7 +54,7 @@ right after the marker code and prior to the `tilesloaded` event listener remova
             else alert(msg);
 
         },function(error){console.log("Error retrieving location " + error.code + " " + error.message)});
-
+     
 
    >The Google Maps API details and explanation are beyond the scope of this workshop, however you can find everything you need to know 
    about the API's and code used in this application [here](https://developers.google.com/maps/documentation/javascript/tutorial). Note that for
@@ -62,6 +66,20 @@ The result is then put into a message and displayed in either an alert or using 
  that provides a non-blocking informational toast notification and is a nicer solution in this case.
 
     <img class="screenshot-lg" src="images/flow3-map-details.jpg"/>
+
+### Without Google Maps Developer Key
+1. If you did not create a google maps key then you can still do this lesson and get the current location using the Geolocation plugin. Add the following code into the
+mapIt function outside of the Google maps code. Inserting it into the very top of the function might be a good place for trying out this feature. 
+
+        navigator.geolocation.getCurrentPosition(function (position) {
+            var here = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+            var msg = "Your current latitude is: " + position.coords.latitude +" and current longitude is " + position.coords.longitude;
+
+            if (window.cordova && window.plugins && window.plugins.toast)
+                window.plugins.toast.showShortCenter(msg);
+            else alert(msg);
+
+        },function(error){console.log("Error retrieving location " + error.code + " " + error.message)});
 
 ### Dependencies
 
