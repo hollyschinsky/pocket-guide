@@ -87,7 +87,7 @@ mapIt function outside of the Google maps code. Inserting it into the very top o
    - [Cordova Geolocation Core Plugin](https://github.com/apache/cordova-plugin-geolocation)
    - [Toast 3rd Party Plugin](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin)
  
-        ````
+        ```
         $ phonegap plugin add cordova-plugin-network-information
         $ phonegap plugin add cordova-plugin-geolocation
         $ phonegap plugin add nl.x-services.plugins.toast
