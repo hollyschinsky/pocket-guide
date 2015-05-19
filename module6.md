@@ -88,6 +88,11 @@ You can disable this effect by setting a property in the config.xml file.
 
 ### Dependencies
 - [Status Bar Plugin](https://github.com/apache/cordova-plugin-statusbar)
+       
+      $ phonegap plugin add cordova-plugin-statusbar
+
 - [Ionic Keyboard Plugin](https://github.com/driftyco/ionic-plugin-keyboard)
+      
+      $ phonegap plugin add com.ionic.keyboard
  
  
