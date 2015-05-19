@@ -6,29 +6,27 @@ title: Module 1&#58; Setup the project
 ### Create a new Project
 1. Create a PhoneGap project using either the PhoneGap CLI or the PhoneGap Desktop Application you learned in the first workshop. For example:
 
-        phonegap create pg-workshop com.yourname.workshop PGWorkshop 
+        phonegap create pgworkshop com.yourname.workshop PGWorkshop 
       
 2. Navigate into the newly created project folder:
 
-        cd pg-workshop        
+        cd pgworkshop        
 
 ### Replace Contents
-1. Download the supporting files for this tutorial as a zip file [here](https://github.com/hollyschinsky/pocket-guide/archive/master.zip), 
-or clone the repository:
+1. The final application project we'll be using is located [here](https://github.com/hollyschinsky/pocket-guide). It contains a **solutions** folder
+with the final module code per step to reference. If you want to work along, a starter project beginning with module 1 is available [here](https://github.com/hollyschinsky/pg-workshop). 
+Download the zip file for the [starter project](https://github.com/hollyschinsky/pg-workshop/archive/master.zip) or clone it with git:
 
-        git clone https://github.com/hollyschinsky/pocket-guide
+        git clone https://github.com/hollyschinsky/pg-workshop
 
-1. Delete the contents of your project's **www** folder.
+1. Now copy the **www**, **config.xml** and **pgbot-love.png** files from the starter project into your newly created project root and overwrite the files currently there.
 
-1. Unzip (if needed) and copy the contents of **solutions/www1** into your project's **www** folder.<br><br> 
-    **NOTE:** Your project folder name must remain www, so it's better to copy in just the contents rather than the folder itself. 
-    If you copy the *www1* folder itself in then you will need to rename it to *www*.
-    
-1. Copy the **config.xml** file from the root of the repo project and replace yours with it to save from having to install plugin
-dependencies. If you don't replace yours and want to test with the CLI on your local hard drive you will need to manually add the 
-plugins as they are needed in the lessons. If you're using the PhoneGap Developer App to preview the apps, it will already include
- the core PhoneGap plugins but some used in this workshop are 3rd party and will not work. 
+  The **config.xml** file has some settings which will automatically install the project plugin dependencies, but you could optionally add them manually. The **pgbot-love.png** 
+  is the default icon for this application referenced in config.xml.
 
+  >If the network connection allows for downloading the [full project and solutions](https://github.com/hollyschinsky/pocket-guide/archive/master.zip) then you could alternatively copy over
+  the contents of **solutions/www1** into your project **www** folder, ensuring the folder name stays **www**. Then copy the config.xml and pgbot-love.png from the root
+  into your project root and replace the current config.xml.
 
 ### Run the Initial Application
 1. Serve and pair with the PhoneGap Developer App from the PhoneGap CLI or PhoneGap Desktop: 
@@ -51,7 +49,8 @@ plugins as they are needed in the lessons. If you're using the PhoneGap Develope
       
       > This option requires a mobile SDK setup. If you have Mac and Xcode you should be able to use iOS, but Android requires [additional SDK installation and setup](http://developer.android.com/sdk). 
 
-       **NOTE:** If you don't have the PhoneGap Developer App, you can still serve and run the app in a browser by entering the location server is running on.   
+       **NOTE:** If you don't have the PhoneGap Developer App, you can still run the app in your browser by opening the index.html file in the browser, you will just have limited 
+       functionality.    
 
 2. Ensure you see the application load with a listing of Amsterdam's most popular locations. Try typing in a few characters to see the filtering
  on the name.    
