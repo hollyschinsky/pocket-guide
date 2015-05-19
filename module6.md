@@ -86,5 +86,8 @@ You can disable this effect by setting a property in the config.xml file.
 
 2. Now build and run the application again and the webview (your app) should stay in place. 
 
+### Dependencies
+- [Status Bar Plugin](https://github.com/apache/cordova-plugin-statusbar)
+- [Ionic Keyboard Plugin](https://github.com/driftyco/ionic-plugin-keyboard)
  
  
