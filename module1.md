@@ -65,7 +65,7 @@ cover that later:
 
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=your-dev-key-here&libraries=geometry"></script>
 
-  >This is not required, you can choose to follow along by watching the demo's shown in the workshop otherwise.
+  >This is not required, you can choose to follow along by watching the demo's shown in the workshop.
  
   To obtain a key, first create a project, choose the Google Maps JavaScript APIs from the API listing, enable it and create a browser key for it (leave referrer blank).
   Some screenshots to guide are shown here:
