@@ -33,7 +33,7 @@ Single page applications are popular and considered the best approach for hybrid
 
 > [PageSlider](https://github.com/ccoenraets/PageSlider) is a simple library providing hardware accelerated page transitions for Mobile Apps
 
-3. Open **www/js/HomeView.js** and notice how you can render template content within another template, for example, the `ListView` items are populated here within the `content` tag of the home template when the HomeView is rendered.
+3. Open **www/js/HomeView.js** and notice how you can render template content within another template, for example, the `ListView` items are populated here within the `content` tag of the home template when the `HomeView` is rendered.
 
             this.render = function() {
                 this.$el.html(this.template());
