@@ -58,7 +58,7 @@
         }
         else console.log("Status Bar plugin not found or not supported.");
 
-        // Don't display accessory bar from form inputs
+        // Hide the keyboard accessory bar from popping up with search input
         if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
             cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         }
