@@ -57,7 +57,7 @@ Download the zip file for the [starter project](https://github.com/hollyschinsky
     
     <img class="screenshot-lg" src="images/main-view.jpg"/>
  
-  **Note:** You'll receive an alert about using credentials for Google Maps, see the next step. We'll be adding additional features as we go along so not everything will be functional at this point.
+     **Note:** You'll receive an alert about using credentials for Google Maps, see the next step. We'll be adding additional features as we go along so not everything will be functional at this point.
   
 3. (Optional) Set up a Google Maps JavaScript API Key. This project uses the Google Maps JavaScript API for adding a map to the app. If you would like to use this feature, you'll
 need to [obtain a key](https://console.developers.google.com/) and insert it into the index.html script tag where it says your-dev-key-here. Ensure you've kept the &libraries=geometry parameter on the end, we'll 
