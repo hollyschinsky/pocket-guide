@@ -135,3 +135,11 @@ h2 {
      margin-right: auto;
      display: block;
  }
+.screenshot2 {
+    max-width: 80%;
+    max-height: 60%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

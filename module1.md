@@ -70,10 +70,10 @@ cover that later:
   To obtain a key, first create a project, choose the Google Maps JavaScript APIs from the API listing, enable it and create a browser key for it (leave referrer blank).
   Some screenshots to guide are shown here:
    
-   <img class="screenshot-lg" src="images/devkey1.jpg"/>
-   <img class="screenshot-lg" src="images/devkey2.jpg"/>
-   <img class="screenshot-lg" src="images/devkey3.jpg"/>
-   <img class="screenshot-lg" src="images/devkey4.jpg"/>
+   <img class="screenshot2" src="images/devkey1.jpg"/>
+   <img class="screenshot2" src="images/devkey2.jpg"/>
+   <img class="screenshot2" src="images/devkey3.jpg"/>
+   <img class="screenshot2" src="images/devkey4.jpg"/>
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
