@@ -18,7 +18,7 @@ download the [zip file for the project](https://github.com/hollyschinsky/pocket-
 
         git clone https://github.com/hollyschinsky/pocket-guide
 
-1. Now copy the **wsolutions/www1**, **config.xml** and **pgbot-love.png** files from the pocket-guide project into your newly created project root and overwrite the default files currently there.
+1. Now copy the **solutions/www1**, **config.xml** and **pgbot-love.png** files from the pocket-guide project into your newly created project root and overwrite the default files currently there.
 
    > The **config.xml** file has some settings which will automatically install the project plugin dependencies, but you could optionally add them manually. The **pgbot-love.png** is the default icon for this application referenced in config.xml.
 
