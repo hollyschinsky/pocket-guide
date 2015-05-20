@@ -25,8 +25,14 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
+    <preference name="DisallowOverscroll" value="true" />
+
     <!-- Set global app icon -->
     <icon src="pgbot-love.png" /> 
+
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#ec4549"/>
+    <preference name="StatusBarStyle" value="lightcontent" />
 
     <engine name="android" spec="^4.0.0" />
     <engine name="ios" spec="^3.8.0" />

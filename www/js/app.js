@@ -50,13 +50,7 @@
             };
         } else console.log("Notification plugin not found or not supported.");
 
-        // Style the status bar and handle the iOS overlap issue
-        if (window.StatusBar) {
-            StatusBar.overlaysWebView(false);
-            StatusBar.backgroundColorByHexString('#ec4549');
-            StatusBar.styleLightContent();
-        }
-        else console.log("Status Bar plugin not found or not supported.");
+       // Moved statusbar code to preferences to ensure fix appears prior to display
 
         // Hide the keyboard accessory bar from popping up with search input
         if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {

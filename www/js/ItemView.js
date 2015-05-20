@@ -29,21 +29,22 @@ var ItemView = function(place) {
             $('#map_canvas').css('height', '400px');
             var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
+
             // When the tiles load, add a marker to denote title and address of location
             google.maps.event.addListener(map, 'tilesloaded', function() {
-
                 var marker = new google.maps.Marker({
                     position: there,
                     map: map,
                     title: place.name + " " + place.location
                 });
-
+                marker.setMap(map);
                 navigator.geolocation.getCurrentPosition(function (position) {
                     var here = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
                     // Use Google Maps Geometry library to compute distance between two points and produce a message
                     var distance = (google.maps.geometry.spherical.computeDistanceBetween(here, there) / 1000).toFixed(2);
                     var msg = "You are " + distance + "KM away from here";
+
 
                     if (window.cordova && window.plugins && window.plugins.toast)
                         window.plugins.toast.showShortCenter(msg);
@@ -60,9 +61,10 @@ var ItemView = function(place) {
 
     // Use the social sharing plugin to share on the native OS
     this.share = function() {
+        // Also sharing the location's picture to show how you can use one within your message as well.
         if (window.cordova && window.plugins && window.plugins.socialsharing) {
             window.plugins.socialsharing.share("Hey look where I'm going next: " + place.name + ".",
-                'My Amsterdam Trip', null, place.website,
+                'My Amsterdam Trip', "www/pics/"+place.pic, place.website,
                 function () {
                     console.log("Success")
                 },
