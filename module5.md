@@ -99,7 +99,7 @@ mapIt function outside of the Google maps code. Inserting it into the very top o
 <div class="row" style="margin-top:40px;">
     <div class="col-sm-12">
         <a href="module3.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-        <a href="module5.html" class="btn btn-default pull-right">Next <i class="glyphicon
+        <a href="module6.html" class="btn btn-default pull-right">Next <i class="glyphicon
 glyphicon-chevron-right"></i></a>
     </div>
 </div>
