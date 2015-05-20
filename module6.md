@@ -18,29 +18,26 @@ This module will take you through a couple steps to polish the application and g
 1. There are two options for using the Status Bar plugin to fix this issue, via configuration or programmatically. 
 
    In either case, you can set the *overlay* setting to false to move the app content below the status bar. There are options
-   to set the status bar background style and text/icons to match the app header colors. The code was implemented in this app
-   already but take a moment to remove it from **www/js/app.js** and re-run it to see the effect, or remove it and add the 
-   config.xml preferences and test it out.
-
-   - **Programatically**
-        In **www/js/app.js** and add the following code at the top of the `deviceready` handler:
-        
-          if (window.StatusBar) {
-              StatusBar.overlaysWebView(false);
-              StatusBar.backgroundColorByHexString('#ec4549');
-              StatusBar.styleLightContent();
-          }
-          else console.log("Status Bar plugin not found or not supported.");
-
+   to set the status bar background style and text/icons to match the app header colors. For this workshop we will set the 
+   preferences in the **config.xml** file so they are loaded and applied sooner than device ready is run. The programmatic
+   approach is also shown:
         
    - **Configuration (config.xml)**
     In your **config.xml** file (in the root of your project), add the following lines:
-  
-         
+           
             <preference name="StatusBarOverlaysWebView" value="false" />
-            <preference name="StatusBarBackgroundColor" value="#209dc2"/>
+            <preference name="StatusBarBackgroundColor" value="#ec4549"/>
             <preference name="StatusBarStyle" value="lightcontent" />
             
+    - **Programatically**
+            In **www/js/app.js** and add the following code at the top of the `deviceready` handler:
+            
+              if (window.StatusBar) {
+                  StatusBar.overlaysWebView(false);
+                  StatusBar.backgroundColorByHexString('#ec4549');
+                  StatusBar.styleLightContent();
+              }
+              else console.log("Status Bar plugin not found or not supported.");        
         
 2. With one of these solutions in place and the Status Bar Plugin added, you should see the following with no overlap:
 
