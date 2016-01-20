@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 12&#58; Add Native Share Feature
+title: Module 7&#58; Add Native Share Feature
 ---
 In this lesson we'll learn how to share a destination's information through the device's native sharing options. 
 
