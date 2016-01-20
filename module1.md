@@ -13,20 +13,15 @@ title: Module 1&#58; Setup the project
         cd pgworkshop        
 
 ### Replace Contents
-1. The final application project we'll be using is located [here](https://github.com/hollyschinsky/pocket-guide). It contains a **solutions** folder
-with the final module code per step to reference. If you want to work along, a starter project beginning with module 1 is available [here](https://github.com/hollyschinsky/pg-workshop). 
-Download the zip file for the [starter project](https://github.com/hollyschinsky/pg-workshop/archive/master.zip) or clone it with git:
+1. The final application project we'll be using is located [here](https://github.com/hollyschinsky/pocket-guide). It contains a **solutions** folder with the completed step by step lesson to reference. If you want to work along, copy the contents or
+download the [zip file for the project](https://github.com/hollyschinsky/pocket-guide/archive/master.zip) or clone it with git:
 
-        git clone https://github.com/hollyschinsky/pg-workshop
+        git clone https://github.com/hollyschinsky/pocket-guide
 
-1. Now copy the **www**, **config.xml** and **pgbot-love.png** files from the starter project into your newly created project root and overwrite the files currently there.
+1. Now copy the **solutions/www1**, **config.xml** and **pgbot-love.png** files from the pocket-guide project into your newly created project root and overwrite the default files currently there.
 
-  The **config.xml** file has some settings which will automatically install the project plugin dependencies, but you could optionally add them manually. The **pgbot-love.png** 
-  is the default icon for this application referenced in config.xml.
+   > The **config.xml** file has some settings which will automatically install the project plugin dependencies, but you could optionally add them manually. The **pgbot-love.png** is the default icon for this application referenced in config.xml.
 
-  >If the network connection allows for downloading the [full project and solutions](https://github.com/hollyschinsky/pocket-guide/archive/master.zip) then you could alternatively copy over
-  the contents of **solutions/www1** into your project **www** folder, ensuring the folder name stays **www**. Then copy the config.xml and pgbot-love.png from the root
-  into your project root and replace the current config.xml.
 
 ### Run the Initial Application
 1. Serve and pair with the PhoneGap Developer App from the PhoneGap CLI or PhoneGap Desktop: 
