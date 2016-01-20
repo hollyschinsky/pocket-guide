@@ -8,12 +8,12 @@ In this lesson we'll learn how to share a destination's information through the 
 
 1. In **index.html**, add the following tab to the tab bar in the *item-tpl* template:
     
-    ```
-    <div class="shareBtn tab-item">
-        <span class="icon icon-share"></span>
-        <span class="tab-label">Share</span>
-    </div>
-    ```
+    
+    `<div class="shareBtn tab-item">`
+        `<span class="icon icon-share"></span>`
+        `<span class="tab-label">Share</span>`
+    `</div>`
+    
     
 
 1. In the **initialize()** function of **ItemView.js**, register an event listener for the click event of the *share* button.
@@ -45,7 +45,7 @@ In this lesson we'll learn how to share a destination's information through the 
 
 ### Dependencies
  
-- [Social Sharing 3rd Party Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
+-[Social Sharing 3rd Party Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
   
     `$ phonegap plugin add nl.x-services.plugins.socialsharing`
     
@@ -62,8 +62,5 @@ In this lesson we'll learn how to share a destination's information through the 
 </div>
 
 
-
-</div>
-</div>
 
 
