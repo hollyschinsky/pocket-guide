@@ -38,13 +38,13 @@ In this lesson we'll learn how to share a destination's information through the 
 
 1. Run the application again and click the share button to ensure you see the following:
 
-    <img class="screensho-lgt" src="images/flow5-social-share.jpg"/>
+    <img class="screensho-lgt" src="images/flow4-social-share.jpg"/>
     
 >The options shown here will depend on your particular devices' native sharing options.
 
 ### Dependencies
  
-    - [Toast 3rd Party Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
+    - [Social Sharing 3rd Party Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
   
      $ phonegap plugin add nl.x-services.plugins.socialsharing
     
