@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 14&#58; Adding Polish | Configuration Tips
+title: Module 6&#58; Adding Polish | Configuration Tips
 ---
 This module will take you through a couple steps to polish the application and give you some tips on configuration settings to be aware of.     
 
@@ -93,3 +93,12 @@ You can disable this effect by setting a property in the config.xml file.
       $ phonegap plugin add com.ionic.keyboard
  
  
+ 
+
+<div class="row" style="margin-top:40px;">
+    <div class="col-sm-12">
+        <a href="module5.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+        <a href="module7.html" class="btn btn-default pull-right">Next <i class="glyphicon
+glyphicon-chevron-right"></i></a>
+    </div>
+</div>
