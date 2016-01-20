@@ -9,10 +9,10 @@ In this lesson we'll learn how to share a destination's information through the 
 1. In **index.html**, add the following tab to the tab bar in the *item-tpl* template:
     
     
-    `<div class="shareBtn tab-item">`
-        `<span class="icon icon-share"></span>`
-        `<span class="tab-label">Share</span>`
-    `</div>`
+        <div class="shareBtn tab-item">
+            <span class="icon icon-share"></span>
+            <span class="tab-label">Share</span>
+        </div>
     
     
 
@@ -47,7 +47,7 @@ In this lesson we'll learn how to share a destination's information through the 
  
 -[Social Sharing 3rd Party Plugin](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
   
-    `$ phonegap plugin add nl.x-services.plugins.socialsharing`
+     $ phonegap plugin add nl.x-services.plugins.socialsharing
     
     
  > The Social Sharing plugin is already included in the config.xml from the repo and will be added automatically if you are using it with the 
